@@ -258,7 +258,7 @@ Given the current state that the model itself has been trained on a limited set(
 
 ### Web Application 
 
-* Flask 
+* Django 
 * CSS 
 * Javascript
 * HTML5
