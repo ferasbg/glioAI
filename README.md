@@ -61,7 +61,7 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 * We can further enhance the usability of this tumor detection system by building a web application that stores the trained model in the back-end.
 
 
-## Objectives
+# Objectives
 
 **Reduce Mortality Rates** 
 ------------------------------------
