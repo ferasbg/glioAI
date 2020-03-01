@@ -85,7 +85,7 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 </h1>
   
 <h1 align="center">
-  <img src=https://github.com/ferasbg/GlioAI/blob/master/media/glioai%20app%20workflow.png width="95%"
+  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/GlioAI_%20Automatic%20Brain%20Tumor%20Detection%20System.jpg width="95%"
 </h1>
   
   
@@ -143,25 +143,29 @@ Model is trained on 25 epochs.
   | Transfer Learning | 97%  |  13%  |	
   | No Transfer Learning | 76% | 49% |
 
-## Transfer Learning: Model Accuracy
+## **Transfer Learning: Model Accuracy
+------------------------------------**
 <h1 align="center">
   <img src=https://github.com/ferasbg/Fynlir/blob/master/media/TL%20Accuracy.png width="35%"
 </h1> 
   
-### No Transfer Learning: Model Accuracy
+## **No Transfer Learning: Model Accuracy
+------------------------------------**
 
 <h1 align="center">
   <img src=https://github.com/ferasbg/GlioAI/blob/master/media/NTL%20Accuracy.png width="35%"
 </h1>
   
-## Transfer Learning: Loss Curve
+## **Transfer Learning: Loss Curve
+------------------------------------**
 
 <h1 align="center"> 
  <img src=https://github.com/ferasbg/GlioAI/blob/master/media/TL%20Loss%20Curve.png width="35%" 
 </h1>
   
   
-## No Transfer Learning: Loss Curve
+## **No Transfer Learning: Loss Curve
+------------------------------------**
 
 <h1 align="center">
   <img src=https://github.com/ferasbg/GlioAI/blob/master/media/NTL%20Loss%20Curve.png width="35%"
