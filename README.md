@@ -61,27 +61,21 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 * We can further enhance the usability of this tumor detection system by building a web application that stores the trained model in the back-end.
 
 
-# Objectives
+## Objectives
 
-**Reduce Mortality Rates** 
-------------------------------------
-
+### Reduce Mortality Rates
 * Create a model that will remove the variable of prognostic human error to improve patient survivability.
 
-**Controlling Treatment Output** 
-------------------------------------
+### Controlling Treatment Output 
 * Control the outcome in order to build a system that will mitigate human error and mortality rates.
 
-**Scalability** 
-------------------------------------
+### Scalability
 * Accelerate the process of deployment for deep-learning based applications in a medical imaging context.
 
-**Cost-Effective** 
-------------------------------------
+### Cost-Effective
 * Build a cost effective solution that reduces treatment costs via automation.
 
-**Usability + Accessibility** 
-------------------------------------
+### Usability + Accessibility
 * Create a user-friendly web app that will allow physicians and patients to easily upload their MRI data and receiving data reports and diagnostic results.
 
 # Workflow
