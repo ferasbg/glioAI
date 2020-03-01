@@ -147,7 +147,13 @@ Model is trained on 25 epochs.
 <h1 align="center">
   <img src=https://github.com/ferasbg/Fynlir/blob/master/media/TL%20Accuracy.png width="35%"
 </h1> 
+  
+### No Transfer Learning: Model Accuracy
 
+<h1 align="center">
+  <img src=https://github.com/ferasbg/GlioAI/blob/master/media/NTL%20Accuracy.png width="35%"
+</h1>
+  
 ## Transfer Learning: Loss Curve
 
 <h1 align="center"> 
@@ -160,13 +166,7 @@ Model is trained on 25 epochs.
 <h1 align="center">
   <img src=https://github.com/ferasbg/GlioAI/blob/master/media/NTL%20Loss%20Curve.png width="35%"
 </h1>
-  
-### No Transfer Learning: Model Accuracy
 
-<h1 align="center">
-  <img src=https://github.com/ferasbg/GlioAI/blob/master/media/NTL%20Accuracy.png width="35%"
-</h1>
-  
 
 ## Comparison of the Models
 
