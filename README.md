@@ -64,18 +64,24 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 ## Objectives
 
 **Reduce Mortality Rates** 
+------------------------------------
+
 * Create a model that will remove the variable of prognostic human error to improve patient survivability.
 
 **Controlling Treatment Output** 
+------------------------------------
 * Control the outcome in order to build a system that will mitigate human error and mortality rates.
 
 **Scalability** 
-* Accelerate the process of deployment for deep-learning based application.
+------------------------------------
+* Accelerate the process of deployment for deep-learning based applications in a medical imaging context.
 
 **Cost-Effective** 
+------------------------------------
 * Build a cost effective solution that reduces treatment costs via automation.
 
 **Usability + Accessibility** 
+------------------------------------
 * Create a user-friendly web app that will allow physicians and patients to easily upload their MRI data and receiving data reports and diagnostic results.
 
 # Workflow
@@ -143,29 +149,27 @@ Model is trained on 25 epochs.
   | Transfer Learning | 97%  |  13%  |	
   | No Transfer Learning | 76% | 49% |
 
-## **Transfer Learning: Model Accuracy
-------------------------------------**
+## Transfer Learning: Model Accuracy
+
 <h1 align="center">
   <img src=https://github.com/ferasbg/Fynlir/blob/master/media/TL%20Accuracy.png width="35%"
 </h1> 
   
-## **No Transfer Learning: Model Accuracy
-------------------------------------**
+## No Transfer Learning: Model Accuracy
+
 
 <h1 align="center">
   <img src=https://github.com/ferasbg/GlioAI/blob/master/media/NTL%20Accuracy.png width="35%"
 </h1>
   
-## **Transfer Learning: Loss Curve
-------------------------------------**
-
+## Transfer Learning: Loss Curve
 <h1 align="center"> 
  <img src=https://github.com/ferasbg/GlioAI/blob/master/media/TL%20Loss%20Curve.png width="35%" 
 </h1>
   
   
-## **No Transfer Learning: Loss Curve
-------------------------------------**
+## No Transfer Learning: Loss Curve
+
 
 <h1 align="center">
   <img src=https://github.com/ferasbg/GlioAI/blob/master/media/NTL%20Loss%20Curve.png width="35%"
