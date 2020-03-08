@@ -14,7 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODELS = os.path.join(BASE_DIR, 'glioai/models')
+MODELS = os.path.join(BASE_DIR, '/root/glio.ai/models')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -25,7 +25,7 @@ SECRET_KEY = '(2+17e3!8k5iqm5y&eq6s53b!lnlv**vs5#8qb)9+1&q6zpzz4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'glioai'
+    'glioai',
+    'src',
+    'models'
 ]
 
 MIDDLEWARE = [

@@ -5,12 +5,13 @@ import pandas as pd
 import os
 import tensorflow as tf
 import keras
-from tensorflow.keras.preprocessing.image import img_to_array
-from tensorflow.keras.models import load_model
-from tensorflow.keras.applications.vgg16 import VGG16
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.vgg16 import preprocess_input
-from tensorflow.keras.models import Model
+from keras.preprocessing.image import img_to_array
+from keras.models import load_model
+from keras.applications.vgg16 import VGG16
+from keras.preprocessing import image
+from keras.applications.vgg16 import preprocess_input
+from keras.models import Model
+from .src import tumorprediction
 global graph,model
 import requests
 
@@ -18,11 +19,11 @@ import requests
 graph = tf.get_default_graph()
 
 print("glio.ai loading.......")
-model = tf.keras.models.load_model('/glio.ai/glioai/models/mri_tumor.h5')
-print("...Model loaded!")
+model = load_model('/root/glio.ai/models/mri_tumor.h5')
+print("Model loaded!")
 
 
-def prediction(request):
+def prediction(request, *args, **kwargs):
     if request.method == 'POST' and request.FILES['myfile']:
         post = request.method == 'POST'
         myfile = request.FILES['myfile']
@@ -35,7 +36,7 @@ def prediction(request):
         # make prediction
         rs = model.predict(img_data)
         print(rs)
-        return render(request,"/glio.ai/glioai/templates/prediction.html", {
+        return render(request,"/root/glio.ai/glioai/templates/prediction.html", {
         'result': rs})
     else:
-        return render(request, "/glio.ai/glioai/templates/prediction.html")
+        return render(request, "/root/glio.ai/glioai/templates/prediction.html")
