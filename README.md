@@ -57,8 +57,9 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 
 * Because manual image feature extraction methods are very time inefficient, limited to operator experience, and are prone to human error, a reliable and fully automatic classification method using MRI data is necessary for efficient cancer detection.
 
-* To begin solving this issue, we propose a fully automatic method for brain tumor classification, which is developed using [OxfordNet](https://keras.io/applications/#vgg16), a convolutional neural network that has been trained on over a million images from the ImageNet database.
-* We can further enhance the usability of this tumor detection system by building a web application that stores the trained model in the back-end.
+* To begin solving this issue, we propose a fully automatic method for brain tumor recognition, which is developed using [OxfordNet](https://keras.io/applications/#vgg16), a convolutional neural network that has been trained on over a million images from the ImageNet database. Because of the context of our problem, we optimized/modified the neural network so it is able to specifically train within the context of the Head MRI scans to improve performance. 
+
+* We can further enhance the usability of this tumor detection system by building a web application that stores the trained model as an endpoint that can be hit from the front-end (user). 
 
 
 ## Objectives
