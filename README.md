@@ -246,7 +246,7 @@ Given the current state that the model itself has been trained on a limited set(
 ## Reflection on Scope/Targets for the Future
 
 * The number of improvements to make are immense, and the roots originate from one single automated brain cancer detection system.
-* We can build out models and deploy GANs for virtually all image-based radiology tasks first and then shift the focus from just digital radiology (platform + machines) to streamline processes for other diseases.
+* We can build out models and deploy GANs for virtually all image-based radiology tasks first and then shift the focus from just digital radiology (platform + machines) to streamline processes for other diseases. The future is in decentralized medicine, where the patients are the center of all the streams of incentives and operations running throughout the network of the back-end in the healthcare system. Individuals must have diagnosis tools that are computationally accurate and then collaboratively enhanced by humans. 
 
 # Dependencies 
 
@@ -263,7 +263,6 @@ Given the current state that the model itself has been trained on a limited set(
 
 * Django 
 * CSS 
-* Javascript
 * HTML5
             
 
