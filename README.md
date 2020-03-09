@@ -51,13 +51,15 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 
 * The issue with building an effective machine learning system for a medical imaging-based task before was that there was not enough data. Using transfer learning and implementing slight architecture modifications to adapt the model to our dataset allowed GlioAI to perform at over 95% accuracy. 
 
-* Given the context of a transfer learning approach to a feature detection problem, it is crucial to safeguard the probability of model overfitting with prevention methods involving data augmentation, applying data normalization and dropout layer. 
+* Given the context of a transfer learning approach to a feature detection problem, it is crucial to safeguard the probability of model overfitting with prevention methods involving data augmentation, applying data normalization and the dropout layer. 
 
 * [Magnetic Resonance Imaging](https://www.wikiwand.com/en/Magnetic_resonance_imaging) is a new method that has emerged for improving safety in acquiring patient image data. The utilization of these imaging tools are not yet fully maximized due to the variable of human operation within detecting cancers without enough time to make an accurate prognosis. 
 
 * Because manual image feature extraction methods are very time inefficient, limited to operator experience, and are prone to human error, a reliable and fully automatic classification method using MRI data is necessary for efficient cancer detection.
 
-* To begin solving this issue, we propose a fully automatic method for brain tumor recognition, which is developed using [OxfordNet](https://keras.io/applications/#vgg16), a convolutional neural network that has been trained on over a million images from the ImageNet database. Because of the context of our problem, we optimized/modified the neural network so it is able to specifically train within the context of the Head MRI scans to improve performance. 
+* To begin solving this issue, we propose a fully automatic method for brain tumor recognition, which is developed using [OxfordNet](https://keras.io/applications/#vgg16), a convolutional neural network that has been trained on over a million images from the ImageNet database.
+
+* Because of the context of our problem, we optimized/modified the neural network so it is able to specifically train within the context of the Head MRI scans to improve performance. 
 
 * We can further enhance the usability of this tumor detection system by building a web application that stores the trained model as an endpoint that can be hit from the front-end (user). 
 
