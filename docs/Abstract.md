@@ -64,8 +64,14 @@ In order to modulate entropic capacity, we optimized the number of parameters in
 ### 2.4 Training the Model
 
 In order to train the model, we implemented the model.compile() class in order to compile all of the input data and pass it through all of the layers of the neural network. The input data passed through the convolutional layer, which apply a filter to the input data by highlighting a feature region within the image and repeat the process for all of the subregions. The feature maps of the processed input image then are reduced to many dimensional vectors and arrays that are evaluated by the artificial neural network, and due to the decreased dimensionality, the neural network can access all of the smaller subregions to then create a response that is recorded between 0 to 1. All of the layers (convolutional (highlight regions of input image), average-pooling (down-sampling), fully-connected layers, act as the activation functions apart from the optimizer algorithm and selected loss function (categorical-crossentropy).
+<h1 align="center"> 
+  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/malignant%20nodules.png width="25%"><br/>Figure 1: Malignant Nodules of the Head MRI Scans
+</h1> 
 
 ## Results
+
+The optimized convolutional neural network performed at greater than 90% accuracy with thousands of images, while the other neural network with no pretrained nodes performed at a mere 60-70% accuracy.
+
 
 ## Conclusion
 
