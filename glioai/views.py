@@ -39,6 +39,7 @@ def tumor_prediction(request, *args, **kwargs):
         # make prediction
         rs = model.predict(img_data)
         print(rs)
+        #render page
         return render(request,"/root/glio.ai/glioai/templates/prediction.html", {
         'result': rs})
     else:
