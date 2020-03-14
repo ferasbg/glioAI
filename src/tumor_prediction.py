@@ -16,7 +16,6 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 from PIL import Image
 import warnings
-
 warnings.filterwarnings("ignore")
 
 
@@ -46,16 +45,17 @@ for layer in conv.layers:
 
 train_datagen=ImageDataGenerator(preprocessing_function=preprocess_input, validation_split=0.24)
 
-train_generator=train_datagen.flow_from_directory('/root/brain_tumor/tumorapp/brain_tumor_dataset', target_size=(224,224), color_mode='rgb', shuffle=True, subset='training', batch_size=202, class_mode='categorical')
-val_generator = train_datagen.flow_from_directory('/root/brain_tumor/tumorapp/brain_tumor_dataset', target_size=(224,224), color_mode='rgb', shuffle=True, subset='validation', class_mode='categorical')
+train_generator=train_datagen.flow_from_directory('/root/glio.ai/data/braintumordata/brain_tumor_dataset', target_size=(224,224), color_mode='rgb', shuffle=True, subset='training', batch_size=64, class_mode='categorical')
+val_generator = train_datagen.flow_from_directory('/root/glio.ai/data/braintumordata/brain_tumor_dataset', target_size=(224,224), color_mode='rgb', shuffle=True, subset='validation', batch_size=64, class_mode='categorical')
 
 model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 
 print(train_generator.n)
 print(train_generator.batch_size)
-print(253//32)
+print(242//32)
 
+# is the dataset in train_generator empty?
 
 step_size_train=train_generator.n//train_generator.batch_size
 r = model.fit_generator(generator=train_generator, steps_per_epoch=step_size_train, epochs=25, validation_data=val_generator)
@@ -63,20 +63,20 @@ r = model.fit_generator(generator=train_generator, steps_per_epoch=step_size_tra
 #save model
 from tensorflow.keras.models import load_model
 
-tf.keras.models.save_model(model,'mri_tumor.h5', overwrite=True,
+keras.models.save_model(model,'mri_tumor.h5', overwrite=True,
 include_optimizer=True)
 
 model.save('mri_tumor.h5')
 
 #load model
-model = load_model('mri_tumor.h5')
+model = load_model('/root/glio.ai/models/mri_tumor.h5') 
 train_datagen=ImageDataGenerator(preprocessing_function=preprocess_input)
 
-train_generator=train_datagen.flow_from_directory('/root/brain_tumor/tumorapp/brain_tumor_dataset', 
+train_generator=train_datagen.flow_from_directory('/root/glio.ai/data/braintumordata/brain_tumor_dataset', 
 target_size=(224,224), 
 color_mode='rgb', 
 shuffle=True, 
-batch_size=202, 
+batch_size=64, 
 class_mode='categorical')
 
 
@@ -99,10 +99,10 @@ plt.show()
 
 ## test model with separate test dataset
 
-model = load_model('mri_tumor.h5')
+model = load_model('/root/glio.ai/models/mri_tumor.h5')
 
 # route to any of the labaled malignant images that model hasn't seen before 
-img_path = ('/root/brain_tumor/tumorapp/tumortest/Y20.jpg')
+img_path = ('/root/glio.ai/data/tumortest/Y20.jpg')
 img = tf.keras.preprocessing.image.load_img(img_path, target_size=(224,224))
 x = image.img_to_array(img)
 x = np.expand_dims(x,axis=0)

@@ -37,9 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'glio.ai',
     'glioai',
     'src',
-    'models'
+    'models',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
