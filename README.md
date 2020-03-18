@@ -225,6 +225,19 @@ Given the current state that the model itself has been trained on a limited set(
 * I: Main Focus for the Future
 * II: Developmental Scope for 2020s
 * III: Reflection on Targets
+
+## Takeaway
+The future of GlioAI will be a web platform that will allow doctors to recieve feedback from other verified doctors in order to make a far more efficient and accurate diagnosis in less than half the time. 
+
+GlioAI, the collaborative encyclopedic medical tool for doctors for the 21st century.
+
+## Bottleneck
+
+- ensuring patient data privacy with patient-centric monetization model (not driven by monetization from selling data)
+- backend security
+- KYC Verification (private keys to ensure image data is anonymous)
+- ranking cases based on user profile and professional line of work
+
 ## Phase I: Integrate Cryptoeconomic Mechanisms within Crowdsourcing Web Platform for Radiologists
 
 * The future of GlioAI lies in the idea of turning into a decentralized and pseudononymous crowdsourcing platform for medical practicioners and verified physicians and healthcare providers within the context of deep-knowledge tasks to further prune outputs from machines & automated systems ranging in disease detection and other areas in health. 
