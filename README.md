@@ -195,7 +195,7 @@ When comparing the results of the different models that were trained, it is clea
 
 * In this coming decade (2020-2029), the necessity for automation within care delivery will hopefully be deployed at scale, putting the core central focus of the patient back into the hands of the care providers, while lining up monetary incentives for all parties involved via an inverse system between efficiency and cost with automation.  
 
-## Improvements
+## Feature Roadmap
 
 * I: App
 * II: Neural Network Architecture
@@ -229,7 +229,7 @@ Given the current state that the model itself has been trained on a limited set(
 ## Takeaway
 The future of GlioAI will be a web platform that will allow doctors to recieve feedback from other verified doctors in order to make a far more efficient and accurate diagnosis in less than half the time. 
 
-**GlioAI, the collaborative encyclopedic medical tool for doctors for the 21st century.**
+**GlioAI, the collaborative encyclopedic medical tool for doctors built for the 21st century.**
 
 ## Bottleneck
 
