@@ -5,10 +5,6 @@
     Automatic Brain Tumor Detection Using 2D Deep Convolutional Neural Network for Diffusion-Weighted MRI
 </h4>
 
-
-* [here is the link to the project video!](https://www.youtube.com/watch?v=ttS-RH3o0mM)
-
-
 ## Contents
 
 **Part I: Summary**
@@ -281,7 +277,11 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 * Django 
 * CSS 
 * HTML5
-            
+
+# Links for Other Viewing Formats
+
+* [Video](https://www.youtube.com/watch?v=ttS-RH3o0mM)
+* [Blog](https://medium.com/@cryptomartian/glioai-automatic-brain-tumor-detection-system-for-diffusion-weighted-mri-1c808281245f?source=your_stories_page---------------------------)
 
 ## References
 
