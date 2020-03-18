@@ -256,10 +256,12 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 
 * We can further deploy use of these systems by integrating drones to ship treatment medicine with tutorials on the web platform (goal is to make treatment methods open source and qualitatively aggregated together by verified doctors, also self-improving mechanism in terms of data and understanding)
 
-## Reflection on Scope/Targets for the Future
+## Project OKRS
 
-* The number of improvements to make are immense, and the roots originate from one single automated brain cancer detection system.
-* We can build out models and deploy GANs for virtually all image-based radiology tasks first and then shift the focus from just digital radiology (platform + machines) to streamline processes for other diseases. The future is in decentralized medicine, where the patients are the center of all the streams of incentives and operations running throughout the network of the back-end in the healthcare system. Individuals must have diagnosis tools that are computationally accurate and then collaboratively enhanced by humans. 
+* Refine backend system via building out external GAN via Tensorflow (generator + discriminator) in order to improve data that the neural network is trained on 
+* Allow users to book appointments with local doctors and overhead hospital in-patient management in local healthcare facilities with google maps API
+* Build platform with verification features built in to allow doctors to recieve feedback on content they post to designated specialties (ex = imaging --> brain tumors, hemorrhage, etc.)
+* Build site that can sustain high-traffic load with all features built into platform
 
 # Dependencies 
 
