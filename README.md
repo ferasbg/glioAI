@@ -229,7 +229,7 @@ Given the current state that the model itself has been trained on a limited set(
 ## Takeaway
 The future of GlioAI will be a web platform that will allow doctors to recieve feedback from other verified doctors in order to make a far more efficient and accurate diagnosis in less than half the time. 
 
-GlioAI, the collaborative encyclopedic medical tool for doctors for the 21st century.
+**GlioAI, the collaborative encyclopedic medical tool for doctors for the 21st century.**
 
 ## Bottleneck
 
@@ -238,7 +238,7 @@ GlioAI, the collaborative encyclopedic medical tool for doctors for the 21st cen
 - KYC Verification (private keys to ensure image data is anonymous)
 - ranking cases based on user profile and professional line of work
 
-## Phase I: Integrate Cryptoeconomic Mechanisms within Crowdsourcing Web Platform for Radiologists
+## Phase I: Build Crowdsourcing Protocols for Doctors in Need of Diagnostic Feedback
 
 * The future of GlioAI lies in the idea of turning into a decentralized and pseudononymous crowdsourcing platform for medical practicioners and verified physicians and healthcare providers within the context of deep-knowledge tasks to further prune outputs from machines & automated systems ranging in disease detection and other areas in health. 
 
@@ -252,7 +252,7 @@ GlioAI, the collaborative encyclopedic medical tool for doctors for the 21st cen
 
 * Crowdsourcing platform + machines = data-driven digital healthcare ecosystem
 
-## Phase II: Deploy Telemedicine Mechanisms for Digital Doctors for Treating/Diagnosing Brain Cancer 
+## Phase II: Working With Tangible Atoms to Deploy Network for Shipping Treatments
 
 * We can further deploy use of these systems by integrating drones to ship treatment medicine with tutorials on the web platform (goal is to make treatment methods open source and qualitatively aggregated together by verified doctors, also self-improving mechanism in terms of data and understanding)
 
@@ -290,8 +290,6 @@ GlioAI, the collaborative encyclopedic medical tool for doctors for the 21st cen
 * [Deep Radiomics for Brain Tumor Detection and Classification from Multi-Sequence MRI](https://arxiv.org/abs/1903.09240)
 
 * [CrowdBC: A Blockchain-based Decentralized Framework for Crowdsourcing](https://eprint.iacr.org/2017/444.pdf)
-
-## Bibliography
 
 * [Handbook of Neuro-Oncology Neuroimaging](https://www.amazon.com/Handbook-Neuro-Oncology-Neuroimaging-Herbert-Newton-ebook/dp/B01DV7SKZA/ref=sr_1_1?keywords=Handbook+of+Neuro-Oncology+Neuroimaging%5D&qid=1577385706&s=books&sr=1-1)
 
