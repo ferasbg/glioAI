@@ -1,4 +1,6 @@
-# GlioAI: Automatic Brain Tumor Detection System
+<h1 align="center">
+    GlioAI: Automatic Brain Tumor Detection System
+</h1>
 
 <h4 align="center">
     Automatic Brain Tumor Detection Using 2D Deep Convolutional Neural Network for Diffusion-Weighted MRI
