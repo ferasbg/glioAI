@@ -195,7 +195,7 @@ When comparing the results of the different models that were trained, it is clea
 
 * In this coming decade (2020-2029), the necessity for automation within care delivery will hopefully be deployed at scale, putting the core central focus of the patient back into the hands of the care providers, while lining up monetary incentives for all parties involved via an inverse system between efficiency and cost with automation.  
 
-## Improvements
+## Feature Roadmap
 
 * I: App
 * II: Neural Network Architecture
@@ -225,9 +225,24 @@ Given the current state that the model itself has been trained on a limited set(
 * I: Main Focus for the Future
 * II: Developmental Scope for 2020s
 * III: Reflection on Targets
-## Phase I: Integrate Cryptoeconomic Mechanisms within Crowdsourcing Web Platform for Radiologists
+
+## Takeaway
+The future of GlioAI will be a web platform that will allow doctors to recieve feedback from other verified doctors in order to make a far more efficient and accurate diagnosis in less than half the time. 
+
+**GlioAI, the collaborative encyclopedic medical platform for doctors, built for the 21st century.**
+
+## Bottleneck
+
+- ensuring patient data privacy with patient-centric monetization model (not driven by monetization from selling data)
+- backend security
+- KYC Verification (private keys to ensure image data is anonymous)
+- ranking cases based on user profile and professional line of work
+
+## Phase I: Build Crowdsourcing Protocols for Doctors in Need of Diagnostic Feedback
 
 * The future of GlioAI lies in the idea of turning into a decentralized and pseudononymous crowdsourcing platform for medical practicioners and verified physicians and healthcare providers within the context of deep-knowledge tasks to further prune outputs from machines & automated systems ranging in disease detection and other areas in health. 
+
+* Build a platform that can distribute high-value work (aggregation of feedback from board-certified doctors)
 
 * Game design mechanisms can be built out within the crowdsourcing platform in order to line up incentives for users to offer verified feedback that gets simultaneously ranked. 
 
@@ -239,14 +254,16 @@ Given the current state that the model itself has been trained on a limited set(
 
 * Crowdsourcing platform + machines = data-driven digital healthcare ecosystem
 
-## Phase II: Deploy Telemedicine Mechanisms for Digital Doctors for Treating/Diagnosing Brain Cancer 
+## Phase II: Working With Tangible Atoms to Deploy Network for Shipping Treatments
 
 * We can further deploy use of these systems by integrating drones to ship treatment medicine with tutorials on the web platform (goal is to make treatment methods open source and qualitatively aggregated together by verified doctors, also self-improving mechanism in terms of data and understanding)
 
-## Reflection on Scope/Targets for the Future
+## Project OKRS
 
-* The number of improvements to make are immense, and the roots originate from one single automated brain cancer detection system.
-* We can build out models and deploy GANs for virtually all image-based radiology tasks first and then shift the focus from just digital radiology (platform + machines) to streamline processes for other diseases. The future is in decentralized medicine, where the patients are the center of all the streams of incentives and operations running throughout the network of the back-end in the healthcare system. Individuals must have diagnosis tools that are computationally accurate and then collaboratively enhanced by humans. 
+* Refine backend system via building out external GAN via Tensorflow (generator + discriminator) in order to improve data that the neural network is trained on 
+* Allow users to book appointments with local doctors and overhead hospital in-patient management in local healthcare facilities with google maps API
+* Build platform with verification features built in to allow doctors to recieve feedback on content they post to designated specialties (ex = imaging --> brain tumors, hemorrhage, etc.)
+* Build site that can sustain high-traffic load with all features built into platform
 
 # Dependencies 
 
@@ -264,7 +281,11 @@ Given the current state that the model itself has been trained on a limited set(
 * Django 
 * CSS 
 * HTML5
-            
+
+# Links for Other Viewing Formats
+
+* [Video](https://www.youtube.com/watch?v=ttS-RH3o0mM)
+* [Blog](https://medium.com/@cryptomartian/glioai-automatic-brain-tumor-detection-system-for-diffusion-weighted-mri-1c808281245f?source=your_stories_page---------------------------)
 
 ## References
 
@@ -277,8 +298,6 @@ Given the current state that the model itself has been trained on a limited set(
 * [Deep Radiomics for Brain Tumor Detection and Classification from Multi-Sequence MRI](https://arxiv.org/abs/1903.09240)
 
 * [CrowdBC: A Blockchain-based Decentralized Framework for Crowdsourcing](https://eprint.iacr.org/2017/444.pdf)
-
-## Bibliography
 
 * [Handbook of Neuro-Oncology Neuroimaging](https://www.amazon.com/Handbook-Neuro-Oncology-Neuroimaging-Herbert-Newton-ebook/dp/B01DV7SKZA/ref=sr_1_1?keywords=Handbook+of+Neuro-Oncology+Neuroimaging%5D&qid=1577385706&s=books&sr=1-1)
 
