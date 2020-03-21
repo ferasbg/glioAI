@@ -285,7 +285,8 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 # Links for Other Viewing Formats
 
 * [Video](https://www.youtube.com/watch?v=ttS-RH3o0mM)
-* [Blog](https://medium.com/@cryptomartian/glioai-automatic-brain-tumor-detection-system-for-diffusion-weighted-mri-1c808281245f?source=your_stories_page---------------------------)
+* [Project Site](https://ferasbg.github.io/glioAI/)
+* [Visual Write-Up](https://medium.com/@cryptomartian/glioai-automatic-brain-tumor-detection-system-for-diffusion-weighted-mri-1c808281245f?source=your_stories_page---------------------------)
 
 ## References
 
