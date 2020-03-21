@@ -133,10 +133,10 @@ Model is trained on 25 epochs.
 
 
 
-  Models | Accuracy | Loss |	  
-  | --- | --- | --- |	
-  | Transfer Learning | 97%  |  13%  |	
-  | No Transfer Learning | 76% | 49% |
+Models | Accuracy | Loss |	  
+| --- | --- | --- |	
+| Transfer Learning | 97%  |  13%  |	
+| No Transfer Learning | 76% | 49% |
 
 ## Transfer Learning: Model Accuracy
 
