@@ -229,7 +229,7 @@ Given the current state that the model itself has been trained on a limited set(
 ## Takeaway
 The future of GlioAI will be a web platform that will allow doctors to recieve feedback from other verified doctors in order to make a far more efficient and accurate diagnosis in less than half the time. 
 
-**GlioAI, the collaborative encyclopedic medical tool for doctors built for the 21st century.**
+**GlioAI, the collaborative encyclopedic medical platform for doctors, built for the 21st century.**
 
 ## Bottleneck
 
@@ -241,6 +241,8 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 ## Phase I: Build Crowdsourcing Protocols for Doctors in Need of Diagnostic Feedback
 
 * The future of GlioAI lies in the idea of turning into a decentralized and pseudononymous crowdsourcing platform for medical practicioners and verified physicians and healthcare providers within the context of deep-knowledge tasks to further prune outputs from machines & automated systems ranging in disease detection and other areas in health. 
+
+* Build a platform that can distribute high-value work (aggregation of feedback from board-certified doctors)
 
 * Game design mechanisms can be built out within the crowdsourcing platform in order to line up incentives for users to offer verified feedback that gets simultaneously ranked. 
 
