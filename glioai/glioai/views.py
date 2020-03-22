@@ -1,6 +1,8 @@
 import numpy as np 
 import pandas as pd 
 import os
+import base64
+import io
 import tensorflow as tf
 import keras
 import matplotlib.pyplot as plt
@@ -11,22 +13,29 @@ from tensorflow.python.keras.applications.vgg16 import preprocess_input
 from tensorflow.python.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.python.keras.models import Model
 from tensorflow.python.keras.optimizers import Adam
+from tensorflow import keras
 from PIL import Image
 from tensorflow.python.keras.models import load_model
+from tensorflow.python.keras.backend import set_session
 from django.shortcuts import render
-global graph,model
+global graph
+global model
+import h5py
 import requests
 from django.conf import settings
-import warnings
-from tensorflow.python.keras.initializers import glorot_uniform
-from tensorflow import keras
-import sys
-sys.modules['keras'] = keras
 
+import warnings
 warnings.filterwarnings("ignore")
 
-graph = tf.get_default_graph()
-model = load_model('/root/glioAI/glioai/models/tumor_prediction.h5', custom_objects={'GlorotUniform': glorot_uniform()})
+#initialize session for keras model
+session = keras.backend.get_session()
+init = tf.global_variables_initializer()
+session.run(init)
+
+graph = tf.compat.v1.get_default_graph()
+tf.compat.v1.disable_eager_execution()  
+
+model = tf.keras.models.load_model('/root/glioAI/glioai/models/tumor_prediction.h5', compile=False)
 
 
 def home(request):
@@ -35,13 +44,12 @@ def home(request):
 def analysis(request, *args, **kwargs):
     # load image
     img_path = request.FILES['myfile'] 
-    img = tf.python.preprocessing.image.load_img(img_path, target_size=(224,224))
+    img = tf.keras.preprocessing.image.load_img(img_path, target_size=(224,224))
     # convert image to an array
     x = image.img_to_array(img)
     # expand image dimensions
     x = preprocess_input(x)
     x = np.expand_dims(x,axis=0)
-    # make sure that model.predict loads numpy arrays for img 
     with graph.as_default():
         rs = model.predict(x)
     result = ""
