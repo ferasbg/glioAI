@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>glio.ai: automatic brain tumor detection system</title>
+    <title>GlioAI: Automatic Brain Tumor Detection System</title>
   </head>
   <body>
-    <h1>Welcome to glio.ai</h1>
-    <form action="{% url "prediction" %}" method="post" enctype="multipart/form-data">
-    {% csrf_token %}
+    <h1>Welcome to GlioAI</h1>
+    <form action="{% url "prediction" %}">
     <input type="file" name="myfile">
     <button type="submit">Predict</button>
   </form>
-    <h2>Prediction: {{ result }}</h2>
+    <h2>Prediction: </h2>
   </body>
-</html>
+<!-- </html> -->

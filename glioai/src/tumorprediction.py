@@ -1,23 +1,21 @@
 # MIT License
 # Copyright (c) 2019 Feras Baig
-
 import numpy as np 
 import pandas as pd 
 import os
 import tensorflow as tf
 import keras
 import matplotlib.pyplot as plt
-from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
-from tensorflow.keras.applications.vgg16 import VGG16
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.vgg16 import preprocess_input
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import Adam
+from tensorflow.python.keras.layers import Dense, GlobalAveragePooling2D
+from tensorflow.python.keras.applications.vgg16 import VGG16
+from tensorflow.python.keras.preprocessing import image
+from tensorflow.python.keras.applications.vgg16 import preprocess_input
+from tensorflow.python.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.python.keras.models import Model
+from tensorflow.python.keras.optimizers import Adam
 from PIL import Image
 import warnings
-warnings.filterwarnings("ignore")
-
+warnings.filterwarnings('ignore')
 
 image_size = [224,224]
 data_path = 'Data'
@@ -53,7 +51,7 @@ model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accur
 
 print(train_generator.n)
 print(train_generator.batch_size)
-print(242//32)
+print(239//32)
 
 
 # train the model
@@ -63,15 +61,12 @@ r = model.fit_generator(generator=train_generator, steps_per_epoch=step_size_tra
 #save model
 from tensorflow.keras.models import load_model
 
-keras.models.save_model(model,'mri_tumor.h5', overwrite=True,
+keras.models.save_model(model,'tumor_prediction.h5', overwrite=True,
 include_optimizer=True)
 
-model.save('mri_tumor.h5')
+model.save('tumor_prediction.h5')
 
-#load model
-model = load_model('/root/glioAI/glioai/models/mri_tumor.h5') 
 train_datagen=ImageDataGenerator(preprocessing_function=preprocess_input)
-
 train_generator=train_datagen.flow_from_directory('/root/glioAI/data/braintumordata/brain_tumor_dataset', 
 target_size=(224,224), 
 color_mode='rgb', 
@@ -80,29 +75,30 @@ batch_size=64,
 class_mode='categorical')
 
 
+# plot loss
 
-## plot loss
+# plt.plot(r.history['loss'], label='training loss')
+# plt.legend(['Training Loss'])
+# plt.show()
+# plt.savefig('LossVal_loss')
 
-plt.plot(r.history['loss'], label='training loss')
-plt.legend(['Training Loss'])
-plt.show()
-plt.savefig('LossVal_loss')
+# # plot accuracy
 
-## plot accuracy
+# plt.plot(r.history['accuracy'])
+# plt.title('Model Accuracy')
+# plt.legend(['Training Accuracy'])
+# plt.ylabel('Accuracy')
+# plt.xlabel('Epoch')
+# plt.show()
 
-plt.plot(r.history['accuracy'])
-plt.title('Model Accuracy')
-plt.legend(['Training Accuracy'])
-plt.ylabel('Accuracy')
-plt.xlabel('Epoch')
-plt.show()
+## load saved model
 
-## test model with separate test dataset
-
-model = load_model('/root/glioAI/glioai/models/mri_tumor.h5')
+model = load_model('tumor_prediction.h5')
 
 # route to any of the labaled malignant images that model hasn't seen before 
 img_path = ('/root/glioAI/data/tumortest/Y20.jpg')
+
+
 img = tf.keras.preprocessing.image.load_img(img_path, target_size=(224,224))
 x = image.img_to_array(img)
 x = np.expand_dims(x,axis=0)
@@ -124,3 +120,4 @@ else:
     prediction = 'Warning! This image IS tumorous.'
 
 print(prediction)
+
