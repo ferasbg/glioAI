@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/fynlir_logo.png width="25%"><br/>GlioAI: Automatic Brain Tumor Detection System
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/fynlir_logo.png width="25%"><br/>GlioAI: Automatic Brain Tumor Detection System
 </h1> 
 <h4 align="center">
     Automatic Brain Tumor Detection Using 2D Deep Convolutional Neural Network for Diffusion-Weighted MRI
@@ -9,33 +9,33 @@
 
 **Part I: Summary**
 
-* [Overview](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#overview)
-* [Introduction](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#context)
-* [Objectives](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#objectives)
-* [Workflow](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#workflow)
-* [Dataset](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#dataset)
+* [Overview](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#overview)
+* [Introduction](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#context)
+* [Objectives](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#objectives)
+* [Workflow](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#workflow)
+* [Dataset](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#dataset)
 
 **Part II: Results**
 
-* [Results](https://github.com/ferasbg/GlioAI#experiment-and-results)
-* [Model and Training](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#model-and-training)
-* [Comparison of Model Performance](https://github.com/ferasbg/GlioAI#comparison-of-the-models)
+* [Results](https://github.com/ferasbg/glioAI#experiment-and-results)
+* [Model and Training](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#model-and-training)
+* [Comparison of Model Performance](https://github.com/ferasbg/glioAI#comparison-of-the-models)
 
 
 **Part III: Conclusion and Future Work**
-* [Conclusion](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#conclusion)
-* [Improvements](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#improvements)
-* [Future of GlioAI](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#future-of-glioai)
-* [Dependencies](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#dependencies)
+* [Conclusion](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#conclusion)
+* [Improvements](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#improvements)
+* [Future of GlioAI](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#future-of-glioai)
+* [Dependencies](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#dependencies)
 
 
 **Additional Documentation**
 
-* [References](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#references)
-* [Bibliography](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#bibliography)
-* [Attribution](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#attribution)
-* [Contributing](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#contributing)
-* [License](https://github.com/ferasbg/GlioAI/blob/master/docs/README.md#license)
+* [References](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#references)
+* [Bibliography](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#bibliography)
+* [Attribution](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#attribution)
+* [Contributing](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#contributing)
+* [License](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#license)
 
 
 
@@ -84,19 +84,18 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 # Workflow
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/web%20app%20workflow.png width="55%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/web%20app%20workflow.png width="55%"
 </h1>
   
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/GlioAI_%20Automatic%20Brain%20Tumor%20Detection%20System.jpg width="95%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/GlioAI_%20Automatic%20Brain%20Tumor%20Detection%20System.jpg width="95%"
 </h1>
   
   
 ### Synopsis
 
-* The user will import an image of a brain scan and the image will be sent as an http request through the resource server (REST API)
-* The API will deliver the request to the back-end model
-* The model will return a diagnosis back through the REST API server and to the front-end UI for the user.
+* The user will import an image of a brain scan and the image will be sent as an http request to the endpoint of the model
+* The model will return a response to the user with the diagnosis.
 
 
 ## Back-End Design: Implement Convolutional Neural Network
@@ -104,7 +103,7 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 We will be using a deep convolutional neural network, which is a neural network with a set of layers that will perform convolutions, pooling the set of regions of the image to extract features, along with with a softmax function that translates the last layer into a probability distribution.
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/cnn%20process.jpg width="85%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/cnn%20process.jpg width="85%"
 </h1>   
 
 ### Training Method
@@ -149,19 +148,19 @@ Model is trained on 25 epochs.
 ## Transfer Learning: Model Accuracy
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/TL%20Accuracy.png width="35%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/TL%20Accuracy.png width="35%"
 </h1> 
   
 ## No Transfer Learning: Model Accuracy
 
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/NTL%20Accuracy.png width="35%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/NTL%20Accuracy.png width="35%"
 </h1>
   
 ## Transfer Learning: Loss Curve
 <h1 align="center"> 
- <img src=https://github.com/ferasbg/glio.ai/blob/master/media/TL%20Loss%20Curve.png width="35%" 
+ <img src=https://github.com/ferasbg/glioAI/blob/master/media/TL%20Loss%20Curve.png width="35%" 
 </h1>
   
   
@@ -169,14 +168,14 @@ Model is trained on 25 epochs.
 
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/NTL%20Loss%20Curve.png width="35%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/NTL%20Loss%20Curve.png width="35%"
 </h1>
 
 
 ## Comparison of the Models
 
 <h1 align="center">
-<img src=https://github.com/ferasbg/glio.ai/blob/master/media/comparison%20of%20the%20models.png width"65%"
+<img src=https://github.com/ferasbg/glioAI/blob/master/media/comparison%20of%20the%20models.png width"65%"
 </h1>    
 
 ### Evaluation
@@ -285,7 +284,8 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 # Links for Other Viewing Formats
 
 * [Video](https://www.youtube.com/watch?v=ttS-RH3o0mM)
-* [Blog](https://medium.com/@cryptomartian/glioai-automatic-brain-tumor-detection-system-for-diffusion-weighted-mri-1c808281245f?source=your_stories_page---------------------------)
+* [Project Site](https://ferasbg.github.io/glioAI/)
+* [Visual Write-Up](https://medium.com/@cryptomartian/glioai-automatic-brain-tumor-detection-system-for-diffusion-weighted-mri-1c808281245f?source=your_stories_page---------------------------)
 
 ## References
 
