@@ -43,7 +43,7 @@ def analysis(request, *args, **kwargs):
     x = np.expand_dims(x,axis=0)
     # make sure that model.predict loads numpy arrays for img 
     with graph.as_default():
-        rs = model.predict(pred)
+        rs = model.predict(x)
     result = ""
     if rs[0][0] == 1:
         result = "This image is NOT tumorous."
