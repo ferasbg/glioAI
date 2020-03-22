@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  <img src=https://github.com/ferasbg/glioAI/blob/master/media/fynlir_logo.png width="25%"><br/>GlioAI: Automatic Brain Tumor Detection System
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/icons/fynlir_logo.png width="25%"><br/>GlioAI: Automatic Brain Tumor Detection System
 </h1> 
 <h4 align="center">
     Automatic Brain Tumor Detection Using 2D Deep Convolutional Neural Network for Diffusion-Weighted MRI
@@ -84,11 +84,11 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 # Workflow
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glioAI/blob/master/media/web%20app%20workflow.png width="55%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/app/web%20app%20workflow.png width="55%"
 </h1>
   
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glioAI/blob/master/media/GlioAI_%20Automatic%20Brain%20Tumor%20Detection%20System.jpg width="95%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/app/app_workflow.jpg width="95%"
 </h1>
   
   
@@ -103,7 +103,7 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 We will be using a deep convolutional neural network, which is a neural network with a set of layers that will perform convolutions, pooling the set of regions of the image to extract features, along with with a softmax function that translates the last layer into a probability distribution.
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glioAI/blob/master/media/cnn%20process.jpg width="85%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/app/cnn%20process.jpg width="85%"
 </h1>   
 
 ### Training Method
@@ -148,19 +148,19 @@ Model is trained on 25 epochs.
 ## Transfer Learning: Model Accuracy
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glioAI/blob/master/media/TL%20Accuracy.png width="35%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/data/TL%20Accuracy.png width="35%"
 </h1> 
   
 ## No Transfer Learning: Model Accuracy
 
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glioAI/blob/master/media/NTL%20Accuracy.png width="35%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/data/NTL%20Accuracy.png width="35%"
 </h1>
   
 ## Transfer Learning: Loss Curve
 <h1 align="center"> 
- <img src=https://github.com/ferasbg/glioAI/blob/master/media/TL%20Loss%20Curve.png width="35%" 
+ <img src=https://github.com/ferasbg/glioAI/blob/master/media/data/TL%20Loss%20Curve.png width="35%" 
 </h1>
   
   
@@ -168,14 +168,14 @@ Model is trained on 25 epochs.
 
 
 <h1 align="center">
-  <img src=https://github.com/ferasbg/glioAI/blob/master/media/NTL%20Loss%20Curve.png width="35%"
+  <img src=https://github.com/ferasbg/glioAI/blob/master/media/data/NTL%20Loss%20Curve.png width="35%"
 </h1>
 
 
 ## Comparison of the Models
 
 <h1 align="center">
-<img src=https://github.com/ferasbg/glioAI/blob/master/media/comparison%20of%20the%20models.png width"65%"
+<img src=https://github.com/ferasbg/glioAI/blob/master/media/data/comparison%20of%20the%20models.png width"65%"
 </h1>    
 
 ### Evaluation
