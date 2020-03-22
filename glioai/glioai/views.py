@@ -34,14 +34,16 @@ def home(request):
 
 def analysis(request, *args, **kwargs):
     # load image
-    uploaded_img = request.FILES['myfile']
-    img = tf.keras.preprocessing.image.load_img(uploaded_img, target_size=(224,224))
+    img_path = request.FILES['myfile'] 
+    img = tf.python.preprocessing.image.load_img(img_path, target_size=(224,224))
+    # convert image to an array
     x = image.img_to_array(img)
+    # expand image dimensions
+    x = preprocess_input(x)
     x = np.expand_dims(x,axis=0)
-    img_data = preprocess_input(x)
-    # make prediction
+    # make sure that model.predict loads numpy arrays for img 
     with graph.as_default():
-        rs = model.predict(img_data)
+        rs = model.predict(pred)
     result = ""
     if rs[0][0] == 1:
         result = "This image is NOT tumorous."
