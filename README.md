@@ -98,7 +98,7 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 * The model will return a response to the user with the diagnosis.
 
 
-## GlioNet: Optimized Convolutional Deep Neural Network Implemented in Back-End Infrastructure: 
+## GlioNet: Optimized Convolutional Deep Neural Network Implemented in Back-End Infrastructure 
 
 We will be using an optimized deep convolutional neural network which we will call GlioNet, which is a neural network with a set of layers that will perform convolutions, pooling the set of regions of the image to extract features, that will translate the last layer into a probability distribution using the softmax function.
 
