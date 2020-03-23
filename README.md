@@ -43,6 +43,18 @@
 * [Contributing](https://github.com/ferasbg/glioAI/blob/master/README.md#contributing)
 * [License](https://github.com/ferasbg/glioAI/blob/master/README.md#license)
 
+**FAQ**
+
+* [Value Proposition](https://github.com/ferasbg/glioAI/blob/master/README.md#value-proposition)
+* [Tech](https://github.com/ferasbg/glioAI/blob/master/README.md#tech)
+* [Market Size](https://github.com/ferasbg/glioAI/blob/master/README.md#market-size)
+* [User Acquisition](https://github.com/ferasbg/glioAI/blob/master/README.md#user-acquisition)
+* [Execution](https://github.com/ferasbg/glioAI/blob/master/README.md#execution)
+* [Founder Market Fit](https://github.com/ferasbg/glioAI/blob/master/README.md#founder-market-fit)
+* [Growth Potential](https://github.com/ferasbg/glioAI/blob/master/README.md#growth-potential)
+* [Misc](https://github.com/ferasbg/glioAI/blob/master/README.md#misc)
+* [Concluding Statement](https://github.com/ferasbg/glioAI/blob/master/README.md#concluding-statement)
+
 
 
 ## Overview 
@@ -298,6 +310,35 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 - [ ] Allow users to book appointments with local doctors and overhead hospital in-patient management in local healthcare facilities with google maps API
 - [ ] Build platform with verification features built in to allow doctors to recieve feedback on content they post to designated specialties (ex = imaging --> brain tumors, hemorrhage, etc.)
 - [ ] Build site that can sustain high-traffic load with all features built into platform
+
+
+# FAQ
+
+* [Value Proposition](https://github.com/ferasbg/glioAI/blob/master/README.md#value-proposition)
+* [Tech](https://github.com/ferasbg/glioAI/blob/master/README.md#tech)
+* [Market Size](https://github.com/ferasbg/glioAI/blob/master/README.md#market-size)
+* [User Acquisition](https://github.com/ferasbg/glioAI/blob/master/README.md#user-acquisition)
+* [Execution](https://github.com/ferasbg/glioAI/blob/master/README.md#execution)
+* [Founder Market Fit](https://github.com/ferasbg/glioAI/blob/master/README.md#founder-market-fit)
+* [Growth Potential](https://github.com/ferasbg/glioAI/blob/master/README.md#growth-potential)
+* [Misc](https://github.com/ferasbg/glioAI/blob/master/README.md#misc)
+* [Concluding Statement](https://github.com/ferasbg/glioAI/blob/master/README.md#concluding-statement)
+
+## Value Proposition
+
+<details><summary>Who needs what you’re making?</summary>
+<p>
+  
+That is great question! Our product targets trained radiologists with heavy patient workloads who are in dire need of a reliable painkiller product that can restore the time that was taken away from them by circumstance to be able to interact with patients at the fully deep interpersonal level that was missing before. 
+
+</p>
+</details>
+
+<details><summary>What are the main painpoints that you are targetting specifically?</summary>
+<p>
+  
+</p>
+</details>
 
 # Dependencies 
 
