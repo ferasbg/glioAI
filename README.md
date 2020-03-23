@@ -41,7 +41,7 @@
 
 ## Overview 
 
-GlioAI is an automatic brain cancer detection system that detects tumors in Head MRI scans.
+GlioAI is an automatic brain tumor recognition system that detects tumors in Head MRI scans.
 
 
 
