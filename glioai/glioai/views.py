@@ -28,7 +28,7 @@ from django.conf import settings
 import warnings
 warnings.filterwarnings("ignore")
 
-# launch graph in a session
+# launch graph in session
 session = tf.compat.v1.Session()
 graph = tf.compat.v1.get_default_graph()
 with session.graph.as_default():
