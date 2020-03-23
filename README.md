@@ -185,7 +185,7 @@ Model is trained on 25 epochs.
 
 ### Evaluation
 
-When comparing the results of the different models that were trained, it is clear that the transfer-learning based model is the most accurate deep learning model to deploy for the web app.
+When comparing the results of the different models that were trained, it is clear that the optimized deep neural network performed at a far higher diagnostic accuracy, which we will implement in the web app.
 
 ## Conclusion
 
