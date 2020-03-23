@@ -768,7 +768,7 @@ jekgnenelkgfnleka
 
 * [Advanced Magnetic Resonance Imaging in Glioblastoma: A Review](http://cco.amegroups.com/article/view/15820)
 
-* [Radiomics in Brain Tumor: Image Assessment, Quantitative Feature Descriptors, and Machine-Learning Approaches (https://www.ncbi.nlm.nih.gov/pubmed/28982791)
+* [Radiomics in Brain Tumor: Image Assessment, Quantitative Feature Descriptors, and Machine-Learning Approaches](https://www.ncbi.nlm.nih.gov/pubmed/28982791)
 
 * [An Ensemble of 2D Convolutional Neural Networks for Tumor Segmentation](https://link.springer.com/chapter/10.1007/978-3-319-19665-7_17)
 
