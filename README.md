@@ -264,10 +264,10 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 
 ## Project OKRS
 
-* Refine backend system via building out external GAN via Tensorflow (generator + discriminator) in order to improve data that the neural network is trained on 
-* Allow users to book appointments with local doctors and overhead hospital in-patient management in local healthcare facilities with google maps API
-* Build platform with verification features built in to allow doctors to recieve feedback on content they post to designated specialties (ex = imaging --> brain tumors, hemorrhage, etc.)
-* Build site that can sustain high-traffic load with all features built into platform
+- [ ] Refine backend system via building out external GAN via Tensorflow (generator + discriminator) in order to improve data that the neural network is trained on 
+- [ ] Allow users to book appointments with local doctors and overhead hospital in-patient management in local healthcare facilities with google maps API
+- [ ] Build platform with verification features built in to allow doctors to recieve feedback on content they post to designated specialties (ex = imaging --> brain tumors, hemorrhage, etc.)
+- [ ] Build site that can sustain high-traffic load with all features built into platform
 
 # Dependencies 
 
@@ -284,6 +284,7 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 
 * Django 
 * CSS 
+* Bootstrap
 * HTML5
 
 # Links for Other Viewing Formats
