@@ -98,9 +98,9 @@ GlioAI is an automatic brain cancer detection system that detects tumors in Head
 * The model will return a response to the user with the diagnosis.
 
 
-## Back-End Design: Implement Convolutional Neural Network
+## GlioNet: Optimized Convolutional Deep Neural Network Implemented in Back-End Infrastructure: 
 
-We will be using a deep convolutional neural network, which is a neural network with a set of layers that will perform convolutions, pooling the set of regions of the image to extract features, along with with a softmax function that translates the last layer into a probability distribution.
+We will be using an optimized deep convolutional neural network which we will call GlioNet, which is a neural network with a set of layers that will perform convolutions, pooling the set of regions of the image to extract features, that will translate the last layer into a probability distribution using the softmax function.
 
 <h1 align="center">
   <img src=https://github.com/ferasbg/glioAI/blob/master/media/app/cnn%20process.jpg width="85%"
@@ -110,7 +110,7 @@ We will be using a deep convolutional neural network, which is a neural network 
 
 * We are only interested in applying transfer learning, which relies on training based on previously learned knowledge with a corpus of different large-scale datasets. 
 
-* Because we are given a low volume of training data and are working with images, we decided to use [VGG16](https://keras.io/applications/#vgg16), a state-of-the-art convolutional neural network with 16 layers to increase the probability of attaining a greater model accuracy.
+* Because we are given a low volume of training data and are working with images, we decided to use [VGG16](https://keras.io/applications/#vgg16) for our core infrastructure to begin with. It is a state-of-the-art convolutional neural network with 16 layers to increase the probability of attaining a greater model accuracy.
 
 
 ## Dataset
