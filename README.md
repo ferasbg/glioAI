@@ -5,6 +5,11 @@
     Automatic Brain Tumor Detection Using 2D Deep Convolutional Neural Network for Diffusion-Weighted MRI
 </h4>
 
+<div align="center">
+    <img src="media/app/GlioAI%20User%20Demo.gif" width="800" align="center">
+</div>
+
+
 ## Contents
 
 **Part I: Summary**
