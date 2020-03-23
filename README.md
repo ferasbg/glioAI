@@ -724,19 +724,36 @@ jekgnenelkgfnleka
 
 * [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
 
-* [Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
-
 * [Deep Radiomics for Brain Tumor Detection and Classification from Multi-Sequence MRI](https://arxiv.org/abs/1903.09240)
-
-* [CrowdBC: A Blockchain-based Decentralized Framework for Crowdsourcing](https://eprint.iacr.org/2017/444.pdf)
 
 * [Handbook of Neuro-Oncology Neuroimaging](https://www.amazon.com/Handbook-Neuro-Oncology-Neuroimaging-Herbert-Newton-ebook/dp/B01DV7SKZA/ref=sr_1_1?keywords=Handbook+of+Neuro-Oncology+Neuroimaging%5D&qid=1577385706&s=books&sr=1-1)
 
 * [Luigi Pirtoli, Giovanni Luca Gravina, Antonio Giordano (eds.) - Radiobiology of Glioblastoma_ Recent Advances and Related Pathobiology](https://www.amazon.com/Radiobiology-Glioblastoma-Advances-Pathobiology-Pathology-ebook/dp/B01GPJPJ2I/ref=sr_1_1?keywords=Radiobiology+of+Glioblastoma_+Recent+Advances+and+Related+Pathobiology&qid=1577385668&s=books&sr=1-1)
 
+* [Advanced Magnetic Resonance Imaging in Glioblastoma: A Review](http://cco.amegroups.com/article/view/15820)
+
+* [Radiomics in Brain Tumor: Image Assessment, Quantitative Feature Descriptors, and Machine-Learning Approaches (https://www.ncbi.nlm.nih.gov/pubmed/28982791)
+
+* [An Ensemble of 2D Convolutional Neural Networks for Tumor Segmentation](https://link.springer.com/chapter/10.1007/978-3-319-19665-7_17)
+
+* [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
+
+* [Dropout: A Simple Way to Prevent Neural Networks From Overfitting](https://dl.acm.org/doi/10.5555/2627435.2670313)
+
+* [Tumor Cell Heterogeneity](https://www.ncbi.nlm.nih.gov/pubmed/24084451)
+
+* [Fundamentals of Diagnostic Error in Imaging. Radiographics: a Review Publication of the Radiological
+Society of North America](https://www.ncbi.nlm.nih.gov/pubmed/30303801)
+
+* [Early Grade Classification in Meningioma Patients Combining Radiomics and Semantics Data](https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4955670)
+
 * [Advances in Biology and Treatment of Glioblastoma](https://www.amazon.com/Advances-Biology-Treatment-Glioblastoma-Research-ebook/dp/B073LLJJ6B/ref=sr_1_1?keywords=Advances+in+Biology+and+Treatment+of+Glioblastoma&qid=1577385631&s=books&sr=1-1)
 
 * [Glioblastoma_ Molecular Mechanisms of Pathogenesis and Current Therapeutic Strategies](https://www.amazon.com/Glioblastoma-Mechanisms-Pathogenesis-Therapeutic-Strategies-ebook/dp/B008BB7URG/ref=sr_1_1?keywords=Glioblastoma_+Molecular+Mechanisms+of+Pathogenesis+and+Current+Therapeutic+Strategies&qid=1577385586&s=books&sr=1-1)
+
+* [CrowdBC: A Blockchain-based Decentralized Framework for Crowdsourcing](https://eprint.iacr.org/2017/444.pdf) 
+
+* [Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
 
 
 ## Attribution
