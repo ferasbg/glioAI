@@ -326,20 +326,22 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 
 ## Value Proposition
 
-<details><summary>**Who specifically needs your product and why?**</summary>
+<details><summary>Who specifically needs your product and why?</summary>
 <p>
   
 That is great question! Our product targets trained radiologists with heavy patient workloads who are in dire need of a reliable painkiller product that can restore the time that was taken away from them by circumstance to be able to interact with patients at the fully deep interpersonal level that was missing before. 
 
 </p>
 </details>
-------------------
+
+
 <details><summary>What are the main painpoints that you are targetting specifically?</summary>
 <p>
   
 </p>
 </details>
-------------------
+
+
 </details>
 
 <details><summary>What are you bringing to the table that is new and different than the current market?</summary>
@@ -348,7 +350,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 </p>
 
 </details>
-------------------
+
+
 </details>
 
 <details><summary>What needs will be met for your userbase (doctors) with your product?</summary>
@@ -356,7 +359,8 @@ That is great question! Our product targets trained radiologists with heavy pati
   
 </p>
 </details>
-------------------
+
+
 </details>
 
 <details><summary>What are your users doing now?</summary>
@@ -364,7 +368,7 @@ That is great question! Our product targets trained radiologists with heavy pati
   [insert statement involving the current methods they are doing and the downside effects from the ineffectiveness]
 </p>
 </details>
-------------------
+
 </details>
 
 <details><summary>How does your product work in more detail?</summary>
@@ -372,7 +376,8 @@ That is great question! Our product targets trained radiologists with heavy pati
   
 </p>
 </details>
-------------------
+
+
 </details>
 
 <details><summary>How does your system improve current methods being deployed for image-based cancer detection?</summary>
@@ -380,7 +385,8 @@ That is great question! Our product targets trained radiologists with heavy pati
   [insert statement involving model accuracy and it's range of usage and future features that can be implemented and the scope to use GANs with modified Oxfordnet (GlioNet) in order to account for millions of images (given there is GPU/compute access, monetization must be implemented, thus be specific in the costs involved on the userside and how the monetization will help you scale the product]
 </p>
 </details>
-------------------
+
+
 </details>
 
 <details><summary>What are the main costs involved in terms of resources (money, time, compute) for the user?</summary>
@@ -388,7 +394,8 @@ That is great question! Our product targets trained radiologists with heavy pati
   [specify what "burden" cost that user has to take (i.e. internet usage costs, CPU usage/efficiency when rendering page, what we are alleviating in terms of cost]
 </p>
 </details>
-------------------
+
+
 </details>
 
 <details><summary>What specific part of the radiology pipeline are you improving, and what should we keep in mind of in terms of the abstraction that is left in the full process of the diagnosis and treatment of a patient that we can further improve the efficiency for?</summary>
@@ -396,42 +403,48 @@ That is great question! Our product targets trained radiologists with heavy pati
   
 </p>
 </details>
-------------------
+
+
 <details><summary>Why is the time of now the best time to deploy this technology for the world?</summary>
 <p>
  [AI promises and results that are being achieved currently in the 2020s, how it can truly revolutionize healthcare space, along with the promise of more investment within optimizing current healthcare pipelines involving treatments and diagnostic processes and image-related tasks that go into detecting cancer and treating it, how we can leverage current market growth]
 
 </p>
 </details>
-------------------
+
+
 <details><summary>In Lehmann's terms, explain to me the complete workflow behind the development of your product.</summary>
 <p>
  [Sure, go into neural net dev --> neural net modification --> testing different neural nets --> implementation of trained model and prediction function in backend --> connecting backend infrastructure with frontend to render web app]
 
 </p>
 </details>
-------------------
+
+
 <details><summary>How is your method improving the current state of all machine intelligence systems?</summary>
 <p>
  [Sure, go into neural net dev --> neural net modification --> testing different neural nets --> comparable results to AlexNet, ImageNet, etc. for specifically brain tumor imaging]
 
 </p>
 </details>
-------------------
+
+
 <details><summary>How does the neural network, work?</summary>
 <p>
  [Sure, go into neural net dev --> datapreprocessing --> conv --> average pooling --> relu --> conv --> fully-connected --> optimizer --> dense layer --> softmax function for probability distribution for last layer]
 
 </p>
 </details>
-------------------
+
+
 <details><summary> How did you build out an app with the trained neural network that you built?</summary>
 <p>
  [Sure, go into neural net dev --> datapreprocessing --> conv --> average pooling --> relu --> conv --> fully-connected --> optimizer --> dense layer --> softmax function for probability distribution for last layer]
 
 </p>
 </details>
-------------------
+
+
 ## Market Size 
 <details><summary>How many people are in your target market?</summary>
 <p>
@@ -440,7 +453,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>How fast is the market growing?</summary>
 <p>
 
@@ -448,7 +462,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>How fast is the market growing?</summary>
 <p>
 
@@ -456,7 +471,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>How much time and money do users in your target market waste before switching to your product/service?</summary>
 <p>
 
@@ -465,7 +481,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>What are some trends in your target market, and related markets?</summary>
 <p>
   
@@ -483,7 +500,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>How is this system feasible for production?</summary>
 <p>
   
@@ -492,7 +510,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>What will you do to prepare for the nuance and hidden variables in deploying medical software? What black swan event do you think you should and will prepare for moving forward?</summary>
 <p>
   
@@ -501,7 +520,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>Why might doctors be reluctant to try this tool, and how can you ensure them that this will help them more than any downside relating to the use of the technology itself?</summary>
 <p>
   
@@ -510,16 +530,15 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
 <details><summary> Ok, so your system works. But how will you solve the bottleneck of regulations with the FDA in order to deploy it for doctors worldwide?</summary>
 <p>
- </details>
   
 [SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
 
 </p>
 </details>
------------------
+
 <details><summary>How will you get users?</summary>
 <p>
   
@@ -527,7 +546,7 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
 <details><summary>What exactly makes you different from existing options?</summary>
 <p>
   
@@ -536,7 +555,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>How will users find out about you?</summary>
 <p>
   
@@ -545,7 +565,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 
 ## Product Execution 
 
@@ -554,10 +575,10 @@ That is great question! Our product targets trained radiologists with heavy pati
   
 [SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
 
-
 </p>
 </details>
------------------
+
+
 <details><summary>Why should we think that you can revolutionize the state of healthcare, and what will you bring to the table long term with your product and the scope of it's future?</summary>
 <p>
   
@@ -565,7 +586,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>What should we see in 1 year, 2 years, 3 years, and beyond? Illustrate GlioAI's future and your vision for this product.</summary>
 <p>
   
@@ -573,7 +595,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
------------------
+
+
 <details><summary>You have the minimum product built. Now what parts of this are you going to build next?</summary>
 <p>
   
@@ -581,7 +604,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
--------------------
+
+
 
 ## Founder Market Fit
 <details><summary>Why did you choose this idea?</summary>
@@ -591,7 +615,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
------------------
+
+
 <details><summary>Why are you uniquely qualified to work on this?</summary>
 <p>
   
@@ -599,7 +624,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
------------------
+
+
 <details><summary>Why do you want to dedicate your time to working on this? Why does this problem matter to you at all?</summary>
 <p>
   
@@ -607,7 +633,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
------------------
+
+
 
 
 ## Growth Potential
@@ -618,7 +645,8 @@ efnefnjaefnelafoea
 
 </p>
 </details>
--------------------
+
+
 <details><summary>State your projected earnings for the upcoming quarters given that the app is deployed and the company becomes established. How much can you make a year?</summary>
 <p>
   
@@ -626,7 +654,8 @@ efnefnjaefnelafoea
 
 </p>
 </details>
--------------------
+
+
 <details><summary>How does this become a billion-dollar company?</summary>
 <p>
   
@@ -634,7 +663,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
--------------------
+
+
 <details><summary>If your startup succeeds, what additional areas might you be able to expand into within this healthcare space?</summary>
 <p>
   
@@ -642,7 +672,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
--------------------
+
+
 
 ## Misc
 <details><summary>What have you learned so far from working on this idea?</summary>
@@ -652,7 +683,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
--------------------
+
+
 <details><summary>Why isn’t someone already doing this?</summary>
 <p>
   
@@ -660,7 +692,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
--------------------
+
+
 <details><summary>What are the key things about your field that outsiders don’t understand?</summary>
 <p>
   
@@ -668,7 +701,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
--------------------
+
+
 <details><summary>What will keep you up at night?</summary>
 <p>
   
@@ -676,7 +710,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
--------------------
+
+
 <details><summary>What obstacles will you face and how will you overcome them?</summary>
 <p>
   
@@ -684,7 +719,8 @@ jekgnenelkgfnleka
 
 </p>
 </details>
--------------------
+
+
 <details><summary>What is your main takeaway and take on the current state of the healthcare system and how patients and care providers alike can distribute care at a far more efficient cost? </summary>
 <p>
   
@@ -692,7 +728,7 @@ jekgnenelkgfnleka
 
 </p>
 </details>
--------------------------------- 
+
 
 # Dependencies 
 
