@@ -20,6 +20,7 @@ from tensorflow.python.keras.backend import set_session
 from django.shortcuts import render
 global graph
 global model
+global session
 import h5py
 import requests
 from django.conf import settings
@@ -27,16 +28,16 @@ from django.conf import settings
 import warnings
 warnings.filterwarnings("ignore")
 
-#initialize session for keras model
-session = keras.backend.get_session()
-init = tf.global_variables_initializer()
-session.run(init)
-
+# launch graph in a session
+session = tf.compat.v1.Session()
 graph = tf.compat.v1.get_default_graph()
-tf.compat.v1.disable_eager_execution()  
+with session.graph.as_default():
+    tf.keras.backend.set_session(session)
+    model = tf.keras.models.load_model('/root/glioAI/glioai/models/tumor_prediction.h5', compile=False)
 
-model = tf.keras.models.load_model('/root/glioAI/glioai/models/tumor_prediction.h5', compile=False)
-
+# initialize global variables
+# init = tf.global_variables_initializer()
+# session.run(init)
 
 def home(request):
     return render(request, 'index.html')
@@ -50,8 +51,9 @@ def analysis(request, *args, **kwargs):
     # expand image dimensions
     x = preprocess_input(x)
     x = np.expand_dims(x,axis=0)
-    with graph.as_default():
-        rs = model.predict(x)
+    with session.graph.as_default():
+        tf.keras.backend.set_session(session)
+        rs = model.predict(x, **kwargs)
     result = ""
     if rs[0][0] == 1:
         result = "This image is NOT tumorous."
