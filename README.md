@@ -199,6 +199,40 @@ When comparing the results of the different models that were trained, it is clea
 
 * In this coming decade (2020-2029), the necessity for automation within care delivery will hopefully be deployed at scale, putting the core central focus of the patient back into the hands of the care providers, while lining up monetary incentives for all parties involved via an inverse system between efficiency and cost with automation.  
 
+
+
+## Usage
+
+1. Install Dependencies With Your Command-Line
+
+``` 
+$ pip3 install -r requirements.txt
+
+```
+
+2. Install GlioAI
+``` 
+$ git clone https://github.com/ferasbg/glioAI.git
+
+```
+
+3. Change Directory to GlioAI
+``` 
+$ cd glioAI
+
+```
+
+4. Change Directory to Internal App 
+``` 
+$ cd glioai
+
+```
+5. Launch Server with App
+``` 
+$ python3 manage.py runserver
+
+```
+
 ## Feature Roadmap
 
 * I: App
