@@ -14,33 +14,34 @@
 
 **Part I: Summary**
 
-* [Overview](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#overview)
-* [Introduction](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#context)
-* [Objectives](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#objectives)
-* [Workflow](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#workflow)
-* [Dataset](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#dataset)
+* [Overview](https://github.com/ferasbg/glioAI/blob/master/README.md#overview)
+* [Introduction](https://github.com/ferasbg/glioAI/blob/master/README.md#context)
+* [Objectives](https://github.com/ferasbg/glioAI/blob/master/README.md#objectives)
+* [Workflow](https://github.com/ferasbg/glioAI/blob/master/README.md#workflow)
+* [Dataset](https://github.com/ferasbg/glioAI/blob/master/README.md#dataset)
 
 **Part II: Results**
 
-* [Results](https://github.com/ferasbg/glioAI#experiment-and-results)
-* [Model and Training](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#model-and-training)
-* [Comparison of Model Performance](https://github.com/ferasbg/glioAI#comparison-of-the-models)
+* [Results](https://github.com/ferasbg/glioAI/blob/master/README.md#experiment-and-results)
+* [Model and Training](https://github.com/ferasbg/glioAI/blob/master/README.md#model-and-training)
+* [Comparison of Model Performance](https://github.com/ferasbg/glioAI/blob/master/README.md#comparison-of-the-models)
+* [Usage](https://github.com/ferasbg/glioAI/blob/master/README.md#usage)
 
 
 **Part III: Conclusion and Future Work**
-* [Conclusion](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#conclusion)
-* [Improvements](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#improvements)
-* [Future of GlioAI](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#future-of-glioai)
-* [Dependencies](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#dependencies)
+* [Conclusion](https://github.com/ferasbg/glioAI/blob/master/README.md#conclusion)
+* [Improvements](https://github.com/ferasbg/glioAI/blob/master/README.md#improvements)
+* [Future of GlioAI](https://github.com/ferasbg/glioAI/blob/master/README.md#future-of-glioai)
+* [Dependencies](https://github.com/ferasbg/glioAI/blob/master/README.md#dependencies)
 
 
 **Additional Documentation**
 
-* [References](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#references)
-* [Bibliography](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#bibliography)
-* [Attribution](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#attribution)
-* [Contributing](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#contributing)
-* [License](https://github.com/ferasbg/glioAI/blob/master/docs/README.md#license)
+* [References](https://github.com/ferasbg/glioAI/blob/master/README.md#references)
+* [Bibliography](https://github.com/ferasbg/glioAI/blob/master/README.md#bibliography)
+* [Attribution](https://github.com/ferasbg/glioAI/blob/master/README.md#attribution)
+* [Contributing](https://github.com/ferasbg/glioAI/blob/master/README.md#contributing)
+* [License](https://github.com/ferasbg/glioAI/blob/master/README.md#license)
 
 
 
@@ -207,30 +208,25 @@ When comparing the results of the different models that were trained, it is clea
 
 ``` 
 $ pip3 install -r requirements.txt
-
 ```
 
 2. Install GlioAI
 ``` 
 $ git clone https://github.com/ferasbg/glioAI.git
-
 ```
 
 3. Change Directory to GlioAI
 ``` 
 $ cd glioAI
-
 ```
 
 4. Change Directory to Internal App 
 ``` 
 $ cd glioai
-
 ```
 5. Launch Server with App
 ``` 
 $ python3 manage.py runserver
-
 ```
 
 ## Feature Roadmap
