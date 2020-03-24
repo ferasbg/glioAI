@@ -64,9 +64,6 @@ In order to modulate entropic capacity, we optimized the number of parameters in
 ### 2.4 Training the Model
 
 In order to train the model, we implemented the model.compile() class in order to compile all of the input data and pass it through all of the layers of the neural network. The input data passed through the convolutional layer, which apply a filter to the input data by highlighting a feature region within the image and repeat the process for all of the subregions. The feature maps of the processed input image then are reduced to many dimensional vectors and arrays that are evaluated by the artificial neural network, and due to the decreased dimensionality, the neural network can access all of the smaller subregions to then create a response that is recorded between 0 to 1. All of the layers (convolutional (highlight regions of input image), average-pooling (down-sampling), fully-connected layers, act as the activation functions apart from the optimizer algorithm and selected loss function (categorical-crossentropy).
-<h4 align="center"> 
-  <img src=https://github.com/ferasbg/glio.ai/blob/master/media/malignant%20nodules.png width="25%"><br/>Figure 1: Malignant Nodules of the Head MRI Scans
-</h4> 
 
 ## Results
 
@@ -109,15 +106,15 @@ The optimized convolutional neural network performed at greater than 90% accurac
 * I: Main Focus for the Future
 * II: Developmental Scope for 2020s
 * III: Reflection on Targets
-## Phase I: Integrate Cryptoeconomic Mechanisms within Crowdsourcing Web Platform for Radiologists
+# Phase I: Build Crowdsourcing Protocols for Doctors in Need of Diagnostic Feedback
 
-* The future of GlioAI lies in the idea of turning into a decentralized and pseudononymous crowdsourcing platform for medical practicioners and verified physicians and healthcare providers within the context of deep-knowledge tasks to further prune outputs from machines & automated systems ranging in disease detection and other areas in health. 
+* The future of GlioAI lies in the idea of turning into a decentralized and pseudononymous crowdsourcing platform for medical practicioners and verified physicians and healthcare providers within the context of deep-knowledge tasks to further prune outputs from machines & automated systems ranging in disease detection and other areas in health.
 
-* Game design mechanisms can be built out within the crowdsourcing platform in order to line up incentives for users to offer verified feedback that gets simultaneously ranked. 
+* Build a platform that can distribute high-value work (aggregation of feedback from board-certified doctors)
+
+* Game design mechanisms can be built out within the crowdsourcing platform in order to line up incentives for users to offer verified feedback that gets simultaneously ranked.
 
 * Propagandistic behaviors cannot occur because of the account verification process in order to create content or rank/upvote other posts (containment + authentication-based friction).
-
-* Build a more cost-effective portable MRI so it eliminates the friction between the MRI image acquisition to further extend user reach.
 
 * Enhancing treatment results via crowdsourcing platform specifically for verified doctors and healthcare providers (verified via school email + State ID)
 
@@ -125,140 +122,30 @@ The optimized convolutional neural network performed at greater than 90% accurac
 
 * Crowdsourcing platform + machines = data-driven digital healthcare ecosystem
 
-## Phase II: Deploy Telemedicine Mechanisms for Digital Doctors for Treating/Diagnosing Brain Cancer 
+# Phase II: Working With Tangible Atoms to Deploy Network for Shipping Treatments
+* Long term down the road, we can monetize in the future after productionization, and further deploy use of these systems by integrating drones to ship treatment medicine with tutorials on the web platform (goal is to make treatment methods open source and qualitatively aggregated together by verified doctors, also self-improving mechanism in terms of data and understanding)
 
-* We can further deploy use of these systems by integrating drones to ship treatment medicine with tutorials on the web platform (goal is to make treatment methods open source and qualitatively aggregated together by verified doctors, also self-improving mechanism in terms of data and understanding)
+# Project OKRS
+* Refine backend system via building out external GAN via Tensorflow (generator + discriminator) in order to improve data that the neural network is trained on (by generating synthetic images that are able to account for far more anomalies involving Head MRI Scans, thus improving diversity of image data the model has been trained with
 
-## Reflection on Scope/Targets for the Future
+* Allow users to book appointments with local doctors and overhead hospital in-patient management in local healthcare facilities with google maps API
 
-* The number of improvements to make are immense, and the roots originate from one single automated brain cancer detection system.
-* We can build out models and deploy GANs for virtually all image-based radiology tasks first and then shift the focus from just digital radiology (platform + machines) to streamline processes for other diseases.
+* Build platform with verification features built in to allow doctors to recieve feedback on content they post to designated specialties (ex = imaging --> brain tumors, hemorrhage, etc.)
 
-## FAQ
+* Build site that can sustain high-traffic load with all features built into platform
+
+## FAQ 
+
+Because the competition is taking place in a virtual manner, here are some questions we figured you may have been wondering about!
 
 **Why did you make this innovation, and how much would it cost?**
  
-That’s a great question. We built this system because we wanted to alleviate the pain points that physicians and radiologists face when making a treatment diagnosis given the extremely limited time they have to do so coupled with a high volume of patients. If we can accelerate the process of detecting the presence of tumors themselves, we can allow physicians to have the ability to make more time to truly be there for their patient. It would cost virtually nothing for the user except internet bandwidth costs for web searches routed from ISP. Essentially anyone who is able to generate an image of a head MRI scan from their local hospital or clinical office can use this system, and it’s as simple as dragging and dropping the image to receive the diagnosis. 
-
-**What are the current solutions out there and why do you think your innovation improves based on the prexisting technologies in the market?**
-
-[response = insert_response]
-
-### Value Proposition
-
-* Who needs what you’re making?
-
-* What’s new about what you make?
-
-* What are the top things users want?
-
-* What are your users doing now?
-
-* How does your product work in more detail?
-
-* How does your system improve current methods being deployed for image-based cancer detection?
-
-### Tech
-
-* Explain to me the complete workflow from end-to-end for how you built the entire application.
-
-* How is your method improving the current state of all machine intelligence systems?
-
-* Explain to me how the convolutional neural network operates and how it was used for the MRI Images that you used?
-
-* How did you build out an app with the trained neural network that you built?
-
-### Market Size
-
-* How many people are in your target market?
-
-* How many $B is the market?
-
-* How fast is the market growing?
-
-* Who are your competitors? Who might become competitors?
-
-* Which competition do you fear most?
-
-* How many users do your competitors have?
-
-* How much are your competitors making?
-
-* How much time and money do users in your target market waste before switching to your product/service?
-
-* What are some trends in your target market, and related markets?
-
-
-### User Acquisition
-
-* **What monetization structure will you use?**
-
-* How is this system feasible for production?
-
-* What will you do to prepare for the nuance and hidden variables in deploying medical software?
-
-* How do you get users?
-
-* **How do users know they need this?**
-
-* **What exactly makes you different from existing options?**
-
-* How will users find out about you?
-
-* What makes new users try you?
-
-* What makes new users reluctant to try you?
-
-* How will you overcome that resistance?
-
-### Execution
-
-* **Can you be clear on your execution targets and your strategy in terms of the phases you would go through?**
-
-### Founder-Market Fit
-
-* **Why did you choose this idea?**
-
-* **Why are you uniquely qualified to work on this?**
-
-* **Why do you want to dedicate your time to working on this?**
-
-### Growth Potential
-* **How will you make money?** 
-monetization via platform + lining up user incentives
-
-* How much money could you make per year?
-
-* **How does this become a billion-dollar company?** 
-If phase 3 executes of mass-decentralized-platform deployment, then possibly.
-
-* **If your startup succeeds, what additional areas might you be able to expand into?**
-
-### Misc
-* What’s the rocket science here?
-
-* **You have the minimum product built. Now what parts of this are you going to build next?**
-
-* What have you learned so far from working on this idea?
-
-* **Why isn’t someone already doing this?**
-
-* **What are the key things about your field that outsiders don’t understand?**
-Why decentralized medicine + integration with automation --> beginning with image-based cancer detection is the best way to start and deploy and scale
-
-* What keeps you up at night?
-
-* **What obstacles will you face and how will you overcome them?**
-
-* Six months from now, what’s going to be your biggest problem?
-
-* What’s the funniest thing that has happened to you?
-
-* **Are you open to changing your idea?**
+* That’s a great question. We built this system because we wanted to alleviate the pain points that physicians and radiologists face when making a treatment diagnosis given the extremely limited time they have to do so coupled with a high volume of patients. 
+* If we can accelerate the process of detecting the presence of tumors themselves, we can allow physicians to have the ability to make more time to truly be there for their patient.
+* It would cost virtually nothing for the user except internet bandwidth costs for web searches routed from ISP. Essentially anyone who is able to generate an image of a head MRI scan from their local hospital or clinical office can use this system, and it’s as simple as dragging and dropping the image to receive the diagnosis. 
 
 
 ## References
-
 
 * [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
 
@@ -267,9 +154,6 @@ Why decentralized medicine + integration with automation --> beginning with imag
 * [Deep Radiomics for Brain Tumor Detection and Classification from Multi-Sequence MRI](https://arxiv.org/abs/1903.09240)
 
 * [CrowdBC: A Blockchain-based Decentralized Framework for Crowdsourcing](https://eprint.iacr.org/2017/444.pdf)
-
-## Bibliography
-
 
 * [Handbook of Neuro-Oncology Neuroimaging](https://www.amazon.com/Handbook-Neuro-Oncology-Neuroimaging-Herbert-Newton-ebook/dp/B01DV7SKZA/ref=sr_1_1?keywords=Handbook+of+Neuro-Oncology+Neuroimaging%5D&qid=1577385706&s=books&sr=1-1)
 
