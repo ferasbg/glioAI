@@ -55,7 +55,6 @@ print(train_generator.n)
 print(train_generator.batch_size)
 print(242//32)
 
-# is the dataset in train_generator empty?
 
 step_size_train=train_generator.n//train_generator.batch_size
 r = model.fit_generator(generator=train_generator, steps_per_epoch=step_size_train, epochs=25, validation_data=val_generator)
