@@ -5,10 +5,19 @@
     Automatic Brain Tumor Detection Using 2D Deep Convolutional Neural Network for Diffusion-Weighted MRI
 </h4>
 
+<h4 align="center">
+  GlioAI analyzing an MRI image (never seen before) that was tumorous, all done in less than 10 seconds.
 <div align="center">
     <img src="media/app/GlioAI%20User%20Demo.gif" width="800" align="center">
 </div>
 
+<h4 align="center">
+   GlioAI analyzing an MRI image of a healthy patient who wants to screen themselves efficiently for any brain tumors for necessary screening over the course of time, both in the benefit of the patient and the doctor alike.
+<div align="center">
+  <img src="https://github.com/ferasbg/glioAI/blob/master/media/app/benign_patient_demo.gif" width="800" align="center">
+</div>
+</h4>
+  
 
 ## Contents
 
