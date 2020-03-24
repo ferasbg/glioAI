@@ -51,10 +51,13 @@ def analysis(request, *args, **kwargs):
     # expand image dimensions
     x = preprocess_input(x)
     x = np.expand_dims(x,axis=0)
-    with session.graph.as_default():
+    with graph.as_default():
         tf.keras.backend.set_session(session)
-        rs = model.predict(x, **kwargs)
-    result = ""
+        rs = model.predict(x)
+        print(rs)  
+    rs[0][0]
+    rs[0][1]
+
     if rs[0][0] == 1:
         result = "This image is NOT tumorous."
     else:

@@ -59,7 +59,7 @@ step_size_train=train_generator.n//train_generator.batch_size
 r = model.fit_generator(generator=train_generator, steps_per_epoch=step_size_train, epochs=25, validation_data=val_generator)
 
 #save model
-from tensorflow.keras.models import load_model
+from tensorflow.python.keras.models import load_model
 
 keras.models.save_model(model,'tumor_prediction.h5', overwrite=True,
 include_optimizer=True)
@@ -93,7 +93,7 @@ class_mode='categorical')
 
 ## load saved model
 
-model = load_model('tumor_prediction.h5')
+model = load_model('/root/glioAI/models/tumor_prediction.h5')
 
 # route to any of the labaled malignant images that model hasn't seen before 
 img_path = ('/root/glioAI/data/tumortest/Y20.jpg')
@@ -114,9 +114,9 @@ rs[0][0]
 rs[0][1]
 
 
-if rs[0][0] == 1:
+if rs[0][0] >= 0.9:
     prediction = 'This image is NOT tumorous.'
-else:
+elif rs[0][0] <= 0.9:
     prediction = 'Warning! This image IS tumorous.'
 
 print(prediction)
