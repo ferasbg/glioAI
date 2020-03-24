@@ -7,12 +7,14 @@
 
 <h4 align="center">
   GlioAI analyzing an MRI image (never seen before) that was tumorous, all done in less than 10 seconds.
+  
 <div align="center">
     <img src="https://github.com/ferasbg/glioAI/blob/master/media/app/malignant_tumor_recognition.gif" width="800" align="center">
 </div>
 
 <h4 align="center">
    GlioAI analyzing an MRI image of a healthy patient who wants to screen themselves efficiently for any brain tumors for necessary screening over the course of time, both in the benefit of the patient and the doctor alike.
+  
 <div align="center">
   <img src="https://github.com/ferasbg/glioAI/blob/master/media/app/automated_brain_tumor_screening.gif" width="800" align="center">
 </div>
