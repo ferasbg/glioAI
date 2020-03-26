@@ -216,6 +216,8 @@ When comparing the results of the different models that were trained, it is clea
 
 * Given that we can precisely automate the process of detecting whether a brain tumor is present in a patient or not, while simultaneously accompanying it with an easy-to-use user interface (for the doctor + patient), hospitals and patients will be able to simplify their workflow for detecting anomalies much earlier and are able to capture it with precision without having to sacrifice accuracy. 
 
+* **It is really important to add that because image-based tumor recognition has become a well-defined problem with heavily promising solutions, we see the viability in the productionization and scale in developing this product further for our future mobile application, and platform for doctors.**
+
 * To further add, healthcare providers will be able to adjacently use applications that are built on top of the rapidly evolving tech infrastructure for care delivery with less friction of accessibility and utilization (via web). 
 
 * There are many improvements to make within the models themselves to account for more diverse and unpredictable anomalies, which can be effectively improved in a cost-effective manner via generating more patient data to train the model using [GANs](https://developers.google.com/machine-learning/gan/gan_structure). 
