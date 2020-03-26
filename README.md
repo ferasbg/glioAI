@@ -351,7 +351,12 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>What are the main painpoints that you are targetting specifically?</summary>
 <p>
-  
+   
+* That’s a great question. We built this system because we wanted to alleviate the pain points involving limited time, high stress, and low diagnostic accuracy that is circumstantially faced by physicians and radiologists when making a treatment diagnosis given the extremely restricted conditions they have to deal with coupled with a high volume of patients. 
+* If we can accelerate the process of detecting the presence of tumors themselves, we can allow physicians to have the ability to make more time to truly be there for their patient.
+* It would cost virtually nothing for the user except internet bandwidth costs for web searches routed from ISP. Essentially anyone who is able to generate an image of a head MRI scan from their local hospital or clinical office can use this system, and it’s as simple as dragging and dropping the image to receive the diagnosis. 
+* In the future, we will monetize the product we will launch in order to support the development, while hospitals will be able to generate larger profit margins from the decreased mortality rates from earlier cancer detection due to the efficient screening process that can be done all through the web.
+
 </p>
 </details>
 
@@ -364,7 +369,6 @@ That is great question! Our product targets trained radiologists with heavy pati
 </p>
 
 </details>
-
 
 </details>
 
