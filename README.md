@@ -62,10 +62,9 @@
 * [Market Size](https://github.com/ferasbg/glioAI/blob/master/README.md#market-size)
 * [User Acquisition](https://github.com/ferasbg/glioAI/blob/master/README.md#user-acquisition)
 * [Execution](https://github.com/ferasbg/glioAI/blob/master/README.md#execution)
-* [Founder Market Fit](https://github.com/ferasbg/glioAI/blob/master/README.md#founder-market-fit)
 * [Growth Potential](https://github.com/ferasbg/glioAI/blob/master/README.md#growth-potential)
 * [Misc](https://github.com/ferasbg/glioAI/blob/master/README.md#misc)
-* [Concluding Statement](https://github.com/ferasbg/glioAI/blob/master/README.md#concluding-statement)
+
 
 
 
@@ -372,9 +371,6 @@ That is great question! Our product targets trained radiologists with heavy pati
 * GlioAI has a promising future in terms of becoming production-ready using GAN to generate MRI images to further dominate the position of the models that are being used. Additionally, there will be other infrastructure developments to make GlioAI ready for doctors around the world. 
 
 </p>
-
-</details>
-
 </details>
 
 <details><summary>What needs will be met for your userbase (doctors) with your product?</summary>
@@ -387,13 +383,6 @@ That is great question! Our product targets trained radiologists with heavy pati
 - Our goal is to **simplify the workflow of the doctor in the most efficient and reliable method possible for a specifically well-defined portion of the workflow of the doctor.**
   
 </p>
-</details>
-
-
-</details>
-
-</details>
-
 </details>
 
 <details><summary>How does your system improve current methods being deployed for image-based cancer detection?</summary>
@@ -412,17 +401,12 @@ That is great question! Our product targets trained radiologists with heavy pati
 </details>
 
 
-</details>
-
 <details><summary>What are the main costs involved in terms of resources (money, time, compute) for the user?</summary>
 <p>
 * There are no additional costs! Although, the user needs to have working internet, a CMD to install our app (which is pre-installed on your computer), and a web browser on the computer to run the app on a local server (which also comes pre-installed, so easy-install and efficient user onboarding along with application usability). We will soon launch on the cloud. 
 * The ROI itself pays off the user's bandwidth costs given that over time there will be less fatalities and projected sales from patients that transfer their healthcare to the options given that provide more assurance, transparency, efficiency, and most importantly, patient quality.
 
 </p>
-</details>
-
-
 </details>
 
 <details><summary>What specific part of the radiology pipeline are you improving, what abstraction is left in the diagnostic process?</summary>
@@ -434,7 +418,6 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
-
 
 <details><summary>Why is the time of now the best time to deploy this technology for the world?</summary>
 <p>
@@ -448,7 +431,6 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </p>
 </details>
-
 
 <details><summary>In Lehmann's terms, explain to me the complete workflow behind the development of your product.</summary>
 <p>
@@ -464,13 +446,11 @@ That is great question! Our product targets trained radiologists with heavy pati
 </p>
 </details>
 
-
 <details><summary>How is your method improving the current state of all machine intelligence systems?</summary>
 <p>
 * **Our method is able to simultaneously improve the accuracy of our image recognition algorithm with an an easy-to-use application that can work on any web browser** alleviating painpoints of radiologists without being difficult-to-use keeping in mind of the importance of the doctor's time within their treatment workflow, and hospitals alike.
 * We want doctors to focus on their patients rather than dealing with clunky software, having control over their time and the use of the technology they apply to help them diagnose patients and additionally decreasing the lag of time involved in treatment planning and executing a workable treatment as efficiently as possible.
 * Our system is focused to be user-centric and built for the doctor, while improving the nature of our system over time and simplfying the distribution of our technology simultaneously (via the web).
-
 
 </p>
 </details>
@@ -478,7 +458,9 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>How does the neural network, work?</summary>
 <p>
-Let's divide up the workflow that was executed to build out and implement the neural network into data acquisition, data augmentation, model training, and saving and loading the model for the app.
+  
+### Introduction
+  Let's divide up the workflow that was executed to build out and implement the neural network into 1) data acquisition, 2) data augmentation, 3) model training, 4) saving, and 5)loading the model for the app.
 
 ### Data Acquisition
 * Let's begin with how we built the neural network, the data that we used, and how we enhance the performance of the neural network along with the signal (quality) of our system overall from the diversity of image data that was given.
@@ -538,100 +520,14 @@ According to the National Health Services, it usually takes a week or two for th
 <details><summary>What monetization model will you use (to protect your users?)</summary>
 <p>
   
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
+- We will monetize through a subscription-based model, giving access for doctors to use our tumor recognition system for free.
+- Additionally to the basic diagnostic features of the app, the premium features that they want to use if they choose to take their workflow to the next level, will include detailed MRI reports, and other developed models that analyze other abstractions that go into the overall diagnosis
+- Additionally to this, The GlioAI Premium Mobile Subscription will include data visualization that allows them to view sets of different data trends of their own patients to be able to gauge clarity of their patients (operating like a second brain CRM for doctors) and different analytics in an easy-to-read format through graphs, charts, and other illustrations created through the MRI reports additionally to the feedback that is sent by other verified doctors on the web platform.
 
 </p>
 </details>
-
-
-<details><summary>How is this system feasible for production?</summary>
-<p>
-  
-* (go into workflow specifics and the breakdown of the "complexity" of launching to the cloud and productionizing the software)
-* 
-* 
-
-</p>
-</details>
-
-
-<details><summary>What will you do to prepare for the nuance and hidden variables in deploying medical software? What black swan event do you think you should and will prepare for moving forward?</summary>
-<p>
-  
-* [SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
-* 
-
-</p>
-</details>
-
-
-<details><summary>Why might doctors be reluctant to try this tool, and how can you ensure them that this will help them more than any downside relating to the use of the technology itself?</summary>
-<p>
-  
-[again, this only automates 1 part of the entire digital radiology pipeline (show img with arrow here) and there are always downsides with every novel product that users may acquire, but we ensure that the main intent is to make sure that the doctor as the user is in mind throughout the development of the product, to make sure that it is easy to use, not clunky software, and is able to cut down times that they previously spent due to the intense schedule with heavy load of patients, the entire end-to-end process of patient care (cancer patients) is not solved yet, but our technology is able to solve a piece of the puzzle. If you feel hesitant to use our product, use your local image database of head MRI scans of brain tumor patients along with our test dataset in order to verify that our system, works! Also refer to the video demo where we show this as well :) --> revise pls]
-
-
-</p>
-</details>
-
-<details><summary> Ok, so your system works. But how will you solve the bottleneck of regulations with the FDA in order to deploy it for doctors worldwide?</summary>
-<p>
-  
-* the main issue is the philosophical problem involving compliance and regulatory bottleneck ---> something really important to keep in mind 
-* 
-*
-
-</p>
-</details>
-
-<details><summary>How will you get users?</summary>
-<p>
-  
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
-
-</p>
-</details>
-
-<details><summary>What exactly makes you different from existing options?</summary>
-<p>
-  
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
-
-
-</p>
-</details>
-
-
-<details><summary>How will users find out about you?</summary>
-<p>
-  
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
-
-
-</p>
-</details>
-
-
 
 ## Product Execution 
-
-<details><summary>Can you be clear on your execution targets and your strategy in terms of the phases you would go through? What are your main targets going into the launch and deployment of this product, and how will you take this forward afterwards?</summary>
-<p>
-  
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
-
-</p>
-</details>
-
-
-<details><summary>Why should we think that you can revolutionize the state of healthcare, and what will you bring to the table long term with your product and the scope of it's future?</summary>
-<p>
-  
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
-
-</p>
-</details>
-
 
 <details><summary>What should we see in 1 year, 2 years, 3 years, and beyond? Illustrate GlioAI's future and your vision for this product.</summary>
 <p>
@@ -644,48 +540,13 @@ According to the National Health Services, it usually takes a week or two for th
 </p>
 </details>
 
-
 <details><summary>You have the minimum product built. Now what parts of this are you going to build next?</summary>
 <p>
   
 - we will be launching a mobile app where users can upload their MRI images and communicate closely with connected doctors and also be able to access the additional diagnostic notes aggregated from crowdsourced feedback from verified doctors around the world that will use the GlioAI platform.  
-- 
-- 
-
 
 </p>
 </details>
-
-
-
-## Founder Market Fit
-<details><summary>Why did you choose this idea?</summary>
-<p>
-  
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
-
-</p>
-</details>
-
-
-<details><summary>Why are you uniquely qualified to work on this?</summary>
-<p>
-  
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
-
-</p>
-</details>
-
-
-<details><summary>Why do you want to dedicate your time to working on this? Why does this problem matter to you at all?</summary>
-<p>
-  
-[explain philosophical, objective, and emotional connection to this product, and to the fine detail why it matters whatsoever to even exist]
-
-</p>
-</details>
-
-
 
 
 ## Growth Potential
@@ -722,7 +583,6 @@ According to the National Health Services, it usually takes a week or two for th
 </p>
 </details>
 
-
 <details><summary>If your startup succeeds, what additional areas might you be able to expand into within this healthcare space?</summary>
 <p>
   
@@ -734,6 +594,7 @@ We currently will focus on radiology and maximize the image-related diagnostic p
 
 
 ## Misc
+
 <details><summary>What have you learned so far from working on this idea?</summary>
 <p>
   
@@ -763,8 +624,6 @@ We currently will focus on radiology and maximize the image-related diagnostic p
 
 </p>
 </details>
-
-
 
 # Dependencies 
 
