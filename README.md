@@ -613,8 +613,8 @@ We currently will focus on radiology and maximize the image-related diagnostic p
 <details><summary>Why isn’t someone already doing this?</summary>
 <p>
   
-* Currently viz.ai is working on building software solutions for detecting strokes using medical images, there needs to be more stability and production-level quality products that need to be deployed and it takes time for it to be implemented
-* Currently, it is the best time to exploit the opportunity to build a telemedicine-based network platform and implementing machine learning systems within the platform, in order to combine aggregated highj-signal human feedback along with the diagnostics delivered through the automated systems operating within the network infrastructure.
+* Currently [viz.ai](https://www.viz.ai/) is working on building software solutions for detecting strokes using medical images, and when dealing with the development of diagnostic systems, there needs to be more stability and product robustness.
+* Currently, it is the best time to exploit the opportunity to build a telemedicine-based network platform and implementing machine learning systems within the platform, in order to combine aggregated high-signal human feedback along with the diagnostics delivered through the automated systems operating within the network infrastructure.
 
 </p>
 </details>
