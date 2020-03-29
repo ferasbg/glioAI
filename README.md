@@ -58,12 +58,11 @@
 **FAQ**
 
 * [Value Proposition](https://github.com/ferasbg/glioAI/blob/master/README.md#value-proposition)
-* [Tech](https://github.com/ferasbg/glioAI/blob/master/README.md#tech)
 * [Market Size](https://github.com/ferasbg/glioAI/blob/master/README.md#market-size)
-* [User Acquisition](https://github.com/ferasbg/glioAI/blob/master/README.md#user-acquisition)
-* [Execution](https://github.com/ferasbg/glioAI/blob/master/README.md#execution)
+* [Product and User Acquisition](https://github.com/ferasbg/glioAI/blob/master/README.md#user-acquisition)
+* [Product Execution](https://github.com/ferasbg/glioAI/blob/master/README.md#execution)
 * [Growth Potential](https://github.com/ferasbg/glioAI/blob/master/README.md#growth-potential)
-* [Misc](https://github.com/ferasbg/glioAI/blob/master/README.md#misc)
+* [Miscellaneous](https://github.com/ferasbg/glioAI/blob/master/README.md#misc)
 
 
 
