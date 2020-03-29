@@ -338,6 +338,7 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 * [Misc](https://github.com/ferasbg/glioAI/blob/master/README.md#misc)
 * [Concluding Statement](https://github.com/ferasbg/glioAI/blob/master/README.md#concluding-statement)
 
+
 ## Value Proposition
 
 <details><summary>Who specifically needs your product and why?</summary>
@@ -365,7 +366,11 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>What are you bringing to the table that is new and different than the current market?</summary>
 <p>
-  
+* Very important question to consider! The optimized neural network that powers the GlioAI application is able to perform at a far more accurate level than other current neural networks including AlexNet and GoogleNet. 
+* GlioAI operates on a primary backend infrastructure from VGG-Net, **is reported to perform at 97-98% accuracy**, and has been trained specifically with thousands of head MRI scans (labeled data) with pretrained layers
+* GlioAI is  **far more efficient than other current technologies due the improved methods of data augmentation** (the acquisition and scale of the training data) and **the consumer-friendly app-based usability of the neural network** and distribution potential by non-power users.
+* GlioAI has a promising future in terms of becoming production-ready using GAN to generate MRI images to further dominate the position of the models that are being used. Additionally, there will be other infrastructure developments to make GlioAI ready for doctors around the world. 
+
 </p>
 
 </details>
@@ -374,6 +379,12 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>What needs will be met for your userbase (doctors) with your product?</summary>
 <p>
+- The main priority is to **fill in the need of the doctor's workflow efficiency**, and taking a piece of the diagnostic process and speeding it up so that the doctor can have the freedom to allocate the recovered time to invest in their patient
+- Our goal is for GlioAI to **help drastically improve the overall patient-doctor experience in terms of time, energy, and financial costs on both ends of the care delivery process** and dispersing positive secondary effects from the efficiency of the diagnosis during the treatment process.
+- In order to make sure this happens, we **integrate our system into the daily workflow of the cancer specialist/radiologist/oncologist through a web app that can be downloaded by doctors around the world** who need to gain insight into the prognosis of their patient through MRI scans efficiently in order to move faster through the appointment for more logistical tasks that don't involve the pure interpersonal communication that is often cut down or out due to the variable of high-volume number of patients in hospitals or local clinical offices.
+- Our goal is to **remove the stress and burden from the doctor’s workload**, to remove the variable of increased error and increased aging due to unnecessary stress from tasks that do not have to take a greater cognitive load on the overworked doctor to **give them leverage and control over their time with the patient.**
+- Additionally, the goal of GlioAI is to also **guarantee flow throughout the treatment process so that they can work on the processes that require more cognitive load and attention that have further abstraction and systemic complexity** that is not well-defined yet for AI systems alike.
+- Our goal is to **simplify the workflow of the doctor in the most efficient and reliable method possible for a specifically well-defined portion of the workflow of the doctor.**
   
 </p>
 </details>
@@ -381,26 +392,22 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 </details>
 
-<details><summary>What are your users doing now?</summary>
-<p>
-  [insert statement involving the current methods they are doing and the downside effects from the ineffectiveness]
-</p>
 </details>
-
-</details>
-
-<details><summary>How does your product work in more detail?</summary>
-<p>
-  
-</p>
-</details>
-
 
 </details>
 
 <details><summary>How does your system improve current methods being deployed for image-based cancer detection?</summary>
 <p>
-  [insert statement involving model accuracy and it's range of usage and future features that can be implemented and the scope to use GANs with modified Oxfordnet (GlioNet) in order to account for millions of images (given there is GPU/compute access, monetization must be implemented, thus be specific in the costs involved on the userside and how the monetization will help you scale the product]
+- Our backend **model performs at over 97% accuracy, performing better than AlexNet and GoogleNet for brain tumor classification**, which again are just neural networks that have not been productionized for web users. 
+- Additionally, GlioAI is a **far more improved and easy-to-use application** for the use of doctors in the healthcare space, so we saw our advantage to build a better solution both on the backend and the front-end involving the user experience.
+- Our system was designed with the **state-of-the-art data augmentation methods for the specific context of our problem** (medical imaging, tumor detection).
+- GlioAI has been **built with neural network layers that have been pretrained on millions of images and numerous image recognition tasks**, and the stored learning is then transfered for image feature extraction for our problem, which uses regions of MRI scans that **constructs connections between the pixels in the image subregions at an ultra-fast speed because it has already been trained, and is self-improving the more that the users feed it data.** 
+- We have focused on **optimizing the quantity and diversity of the data we trained our model with, working to move from a few thousand images** to a few million specifically for head MRI scans with/without brain tumors in the coming future using generative adversarial neural networks.
+- Again, we are only getting started. For **GlioAI 2.0, we will be able to further improve our system by building out a GAN that is able to escape the regulatory bottleneck involved in restricted data acquisiton and train our model with hundreds of thousands of images, cementing our system's accuracy and beating out the accuracy of doctors with decades of experience.** 
+- Furthermore, building a GAN to further train an optimized neural network that has had pretrained layers will be able to increase the validity of the diagnostic performance and accuracy, and reducing the error even further. Of course it's important to keep in mind that this remains a feature implementation for the future. Using GAN, our plan is to produce millions of MRI images that represent anomalies generated by a separate neural network that creates images based on what we already have while letting our model train in the cloud, thus being able to have the most accurate brain tumor detection models in the market, let alone the world. 
+- Keep in mind that the bottleneck as to why others were not able to do this is because of the difficulty with the data acquisition itself.
+* Timing is everything when it comes to a patient with a live tumor growing in their brain, and it is crucial to speed up the diagnostic process while simultaneously increasing the rate of accuracy, which remains the highest priority for GlioAI.
+
 </p>
 </details>
 
@@ -409,23 +416,35 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>What are the main costs involved in terms of resources (money, time, compute) for the user?</summary>
 <p>
-  [specify what "burden" cost that user has to take (i.e. internet usage costs, CPU usage/efficiency when rendering page, what we are alleviating in terms of cost]
+* There are no additional costs! Although, the user needs to have working internet, a CMD to install our app (which is pre-installed on your computer), and a web browser on the computer to run the app on a local server (which also comes pre-installed, so easy-install and efficient user onboarding along with application usability). We will soon launch on the cloud. 
+* The ROI itself pays off the user's bandwidth costs given that over time there will be less fatalities and projected sales from patients that transfer their healthcare to the options given that provide more assurance, transparency, efficiency, and most importantly, patient quality.
+
 </p>
 </details>
 
 
 </details>
 
-<details><summary>What specific part of the radiology pipeline are you improving, and what should we keep in mind of in terms of the abstraction that is left in the full process of the diagnosis and treatment of a patient that we can further improve the efficiency for?</summary>
+<details><summary>What specific part of the radiology pipeline are you improving, what abstraction is left in the diagnostic process?</summary>
 <p>
-  
+* We are specifically targetting patient diagnosis and automated image scanning and analysis during testing for brain tumors. 
+* Additionally put, we are targetting the earlier part of the entire brain cancer treatment workflow to speed up the time it takes to detect the development of the tumor itself, which is extremely important in order to determine the treatment approach.
+* To give some context of what processes go into treating a cancer patient, the current workflow additionally involves data acquisition, diagnostics, treatment planning, and treatment execution to deliver the cure/solution to the patient to alleviate and reduce the level of development of the brain tumor. 
+* Abstraction remains an issue with mainly understanding how to eliminate the tumor itself in a more efficient manner, and being able to map out simulations of how the drugs themselves remove the tumor itself with as little downside as possible, which still remains a huge issue with current chemotherapy methods and drug-related solutions. 
+
 </p>
 </details>
 
 
 <details><summary>Why is the time of now the best time to deploy this technology for the world?</summary>
 <p>
- [AI promises and results that are being achieved currently in the 2020s, how it can truly revolutionize healthcare space, along with the promise of more investment within optimizing current healthcare pipelines involving treatments and diagnostic processes and image-related tasks that go into detecting cancer and treating it, how we can leverage current market growth]
+* AI systems have shown to be able to detect cancers from image-related input data and have demonstrated a promise in accuracy and consistent results, and due to the current state of healthcare, are more seen as a necessary painkiller rather than simply a novel upgrade than previous workflows. In order to advance our position within healthcare for cancers and diseases that can be diagnosed via images, now is the right time to productionize these systems for doctors around the world that are in dire need of more time with their patients along with alleviating their stress to allow them to perform far better in a consistent manner.
+* In the 2020s, we are projecting to see more development and innovation in the biotech sectors, as regulatory bottlenecks and other limitations will be redesigned in order to incentivize individuals to advance the current technology that is used in healthcare. 
+* Because the incentives are lined up for us to move in to this industry coupled with the well-defined nature of the problem that we are solving, we see a bright future for the development and deployment of our technology for doctors and patients alike.
+* Current treatment pipelines need innovation in a dire manner, and in a robust manner where they can be easily implemented and baked into the workflow of doctors and other healthcare providers that operate in the industry.
+* We see a huge growth potential that we can leverage upon in deploying our technology. 
+* We will be able to exponentially optimize current healthcare pipelines involving treatments and diagnostic processes and image-related tasks that go into detecting cancer and treating it.
+
 
 </p>
 </details>
@@ -433,7 +452,14 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>In Lehmann's terms, explain to me the complete workflow behind the development of your product.</summary>
 <p>
- [Sure, go into neural net dev --> neural net modification --> testing different neural nets --> implementation of trained model and prediction function in backend --> connecting backend infrastructure with frontend to render web app]
+* We modified a convolutional neural network from DeepMind so that it is optimized specifically for the context of our image recognition problem, which was to detect brain tumors. 
+* We did this by training the last layers with a specific dataset that was augmented to thousands of image data, and then tuned the model to avoid overfitting on the image data during training using a dropout layer, which increases the validation accuracy which then improves how the model is able to generalize each image to result to a diagnosis!
+* Next, we then implemented our modified neural network into the backend infrastructure of our web application, so that we can build out the front-end user interface for the user which would be the doctor.
+* Note that we prioritized usability over feature complexity in order to reduce the friction and steps it takes for the doctor to upload an image and receive a diagnosis by keeping the interface simple and clean so we remove the difficulty and skills required to use the app.
+* We then tested our system with MRI images that it had never seen before, and the image goes through some data preprocessing functions in order to fit the dimensions and features that our system can analyze (you can think of this process like adding filters and cropping as you do when editing images).
+* The input image is then preprocessed and then is fed to the neural network.
+* Based on the probability distribution that is produced by the softmax function of the model, the score would then determine whether or not the image has a tumor.
+* The response from our backend system is then sent to the front-end interface of the user (their screen).
 
 </p>
 </details>
@@ -441,7 +467,10 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>How is your method improving the current state of all machine intelligence systems?</summary>
 <p>
- [Sure, go into neural net dev --> neural net modification --> testing different neural nets --> comparable results to AlexNet, ImageNet, etc. for specifically brain tumor imaging]
+* **Our method is able to simultaneously improve the accuracy of our image recognition algorithm with an an easy-to-use application that can work on any web browser** alleviating painpoints of radiologists without being difficult-to-use keeping in mind of the importance of the doctor's time within their treatment workflow, and hospitals alike.
+* We want doctors to focus on their patients rather than dealing with clunky software, having control over their time and the use of the technology they apply to help them diagnose patients and additionally decreasing the lag of time involved in treatment planning and executing a workable treatment as efficiently as possible.
+* Our system is focused to be user-centric and built for the doctor, while improving the nature of our system over time and simplfying the distribution of our technology simultaneously (via the web).
+
 
 </p>
 </details>
@@ -449,34 +478,39 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>How does the neural network, work?</summary>
 <p>
- [Sure, go into neural net dev --> datapreprocessing --> conv --> average pooling --> relu --> conv --> fully-connected --> optimizer --> dense layer --> softmax function for probability distribution for last layer]
+Let's divide up the workflow that was executed to build out and implement the neural network into data acquisition, data augmentation, model training, and saving and loading the model for the app.
+
+### Data Acquisition
+* Let's begin with how we built the neural network, the data that we used, and how we enhance the performance of the neural network along with the signal (quality) of our system overall from the diversity of image data that was given.
+* We acquired an open-source dataset from Google Cloud, which was a total of 253 images. We knew that we had to split the data that we train our model with along with the data that we use to test to make sure our models works with novel patient data as well.
+### Data Augmentation
+* To make sure that we account for more diverse data and patient cases due to the limited nature of the data that we are working with, we were able to successfully augment the number of images that we started with by applying transformations to the images themselves in order to produce thousands of images that the model can train on, so that it does not see the image twice and can make more data-supported generalizations.
+* We then came across another problem that we were able to fix as well, which involved the limited nature of our image data which led to a possibility of model overfitting, where the model can make generalizations on irrelevant features and are not actually helpful because the volume of the images was low to begin with.
+* Augmenting our data to fight overfitting was not going to be enough because our augmented samples are still highly correlated. In order to avoid storing information regarding irrelevant features of the images, we configured the model to extract only the most important elements during the data pre-processing phase when masking and reshaping the images, so that the model only interprets the transformed image. We wanted to configure our model so that it can only store a few features which will have to focus on the most significant features found in the data, thus the quality of generalization then improved significantly.
+* To further improve the model in terms of reducing overfitting and inaccurate generalizations, we implemented a dropout layer. Dropout prevents a layer from seeing twice the exact same pattern, working together with data augmentation to account for calling out possible inaccurate feature correlations the model might generate.
+* The preparation for our model is almost complete. Now we use the .flow_from_directory() function in tensorflow in order to generate batches of image data in order to control how many different images that model can be trained on through each cycle, which we will call epochs.
+* We trained the model with a GPU called the Geforce Tesla K80, and implemented a validation dataset in order to cross-verify the accuracy of the model during training to simultaneously guarantee that the model is not overfitting.
+### Training the Model
+* In order to train the model, we implemented the model.compile() class in order to compile all of the input data and pass it through all of the layers of the neural network. 
+* The input data passed through the convolutional layer, which apply a filter to the input data by highlighting a feature region within the image and repeat the process for all of the subregions. The feature maps of the processed input image then are reduced to many dimensional vectors and arrays that are evaluated by the artificial neural network, and due to the decreased dimensionality, the neural network can access all of the smaller subregions to then create a response that is recorded between 0 to 1.
+* Our neural network had 16 layers, which consisted of convolutional layers that processed the various dimensions of the subregions within our image, and passed the different subregions through the average pooling layer, which calculates the average for each patch of the feature map that was formed by the convolutional layer. 
+* This is done in order to reduce the amount of data actually being processed through the system in order to highlight the most important pixels of our image (down-sampling --> reducing pixels of image). 
+* We repeated this process several times, and then applied our Adam optimizer function which reduces the cost function which increases the measure of the performance of the model in respect to training. 
+* We then implemented a dense layer which fully connects all of the neurons in all of the layers in our neural network. 
+* We finally converted the output of the last layer into a probability distribution of multiple classes in order to attach the score to the classes, which were either if the image had a tumor (yes), or if the image did not have a tumor (no).
+
+### Saving Our Model
+* We then saved our trained keras model into an H5 file that stored the weights and architecture of our model, so that we can use it for our application.
+### Loading the Model
+* In the front-end, we were able to successfully load the keras model stored in the backend in order to take the input image and return a response.
 
 </p>
 </details>
-
-
-<details><summary> How did you build out an app with the trained neural network that you built?</summary>
-<p>
- [Sure, go into neural net dev --> datapreprocessing --> conv --> average pooling --> relu --> conv --> fully-connected --> optimizer --> dense layer --> softmax function for probability distribution for last layer]
-
-</p>
-</details>
-
 
 ## Market Size 
 <details><summary>How many people are in your target market?</summary>
 <p>
-
-[important to state that its better to ride the wave of current trends and specializing in a specific painpoint and maximizing the efficiency of the product --> productionization + launch with baked in features for users with access to MRI images to solve one part of the problem]
-
-</p>
-</details>
-
-
-<details><summary>How fast is the market growing?</summary>
-<p>
-
-[important to state that its better to ride the wave of current trends and specializing in a specific painpoint and maximizing the efficiency of the product --> current growth rate, and number of users and people using computers for EHR (electronic health records, image-related tools within MRIs, etc.]
+* This is really important. There are thousands of hospitals (approx 16,500 according to the American Hospital Association) and dozens of independent clinician offices around the entire world.
 
 </p>
 </details>
@@ -485,26 +519,16 @@ That is great question! Our product targets trained radiologists with heavy pati
 <details><summary>How fast is the market growing?</summary>
 <p>
 
-[important to state that its better to ride the wave of current trends and specializing in a specific painpoint and maximizing the efficiency of the product --> current growth rate, and number of users and people using computers for EHR (electronic health records, image-related tools within MRIs, etc.]
+According to Allied Market Research, "the current growth rate of the digital pathology market is projected to reach USD 1.139 billion by 2025 from USD 613 million **in 2020**, at a CAGR **of** 13.2% during the forecast period."  
 
 </p>
 </details>
-
 
 <details><summary>How much time and money do users in your target market waste before switching to your product/service?</summary>
 <p>
 
-[time wasted = x amount of time for MRI diagnosis, time to recieve MRI report, time for accurate diagnosis, implications of wrong diagnosis on the patient's end, hospital, and/or doctor operating as an LLC]
+According to the National Health Services, it usually takes a week or two for the **results** of an **MRI** scan to come through. Let's operate under an average of 10.5 days for a diagnosis to be sent to the patient regarding the development of a brain tumor. **The diagnostic turnaround with our system cuts down the previous time from 10.5 days (252 elapsed hours) to 10 seconds, saving over 250 hours of elapsed time, resulting in over 95% time saved!**
 
-
-</p>
-</details>
-
-
-<details><summary>What are some trends in your target market, and related markets?</summary>
-<p>
-  
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
 
 </p>
 </details>
@@ -523,8 +547,9 @@ That is great question! Our product targets trained radiologists with heavy pati
 <details><summary>How is this system feasible for production?</summary>
 <p>
   
-(go into workflow specifics and the breakdown of the "complexity" of launching to the cloud and productionizing the software)
-
+* (go into workflow specifics and the breakdown of the "complexity" of launching to the cloud and productionizing the software)
+* 
+* 
 
 </p>
 </details>
@@ -533,8 +558,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 <details><summary>What will you do to prepare for the nuance and hidden variables in deploying medical software? What black swan event do you think you should and will prepare for moving forward?</summary>
 <p>
   
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
-
+* [SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
+* 
 
 </p>
 </details>
@@ -552,7 +577,9 @@ That is great question! Our product targets trained radiologists with heavy pati
 <details><summary> Ok, so your system works. But how will you solve the bottleneck of regulations with the FDA in order to deploy it for doctors worldwide?</summary>
 <p>
   
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
+* the main issue is the philosophical problem involving compliance and regulatory bottleneck ---> something really important to keep in mind 
+* 
+*
 
 </p>
 </details>
@@ -609,7 +636,10 @@ That is great question! Our product targets trained radiologists with heavy pati
 <details><summary>What should we see in 1 year, 2 years, 3 years, and beyond? Illustrate GlioAI's future and your vision for this product.</summary>
 <p>
   
-[SECRET_KEY=%395830582544w345w5fe55asf5efefefferfapgxyuhefo32]
+- analytics report + more features to allow users to connect with doctors on the app, so that they can recieve immediate feedback. No more week-long wait times to hear back from the doctor, those days are over. We will now develop the next part of GlioAI 2.0, involving an integrated application to allow patients to communicate individually with their doctors over an encrypted chatting network in the application in order to gain real-time insight on the development of their case including treatment planning and additional steps to take after image scans and testing have taken place. 
+- Long term, our main goal is to make brain cancer as critical as the flu, and this can be done through being able to have the right tools to remove error and any lag from patient diagnosis to treatment. For this to happen, we need to invest more in being able to have an increased developmental understanding on our treatment methods and being able to treat patients as efficiently and accurately as possible.
+- 
+
 
 </p>
 </details>
@@ -618,7 +648,10 @@ That is great question! Our product targets trained radiologists with heavy pati
 <details><summary>You have the minimum product built. Now what parts of this are you going to build next?</summary>
 <p>
   
-jekgnenelkgfnleka
+- we will be launching a mobile app where users can upload their MRI images and communicate closely with connected doctors and also be able to access the additional diagnostic notes aggregated from crowdsourced feedback from verified doctors around the world that will use the GlioAI platform.  
+- 
+- 
+
 
 </p>
 </details>
@@ -656,19 +689,24 @@ jekgnenelkgfnleka
 
 
 ## Growth Potential
-<details><summary>Alright, so we got ourselves an automated tumor recognition system that doctors can use. How will you monetize this? How will you make money? </summary>
+
+<details><summary>What monetization model will you use (to protect your users?</summary>
 <p>
   
-efnefnjaefnelafoea
+- We will monetize through a subscription-based model, giving access for doctors to use our tumor recognition system for free.
+- Additionally to the basic diagnostic features of the app, the premium features that they want to use if they choose to take their workflow to the next level, will include detailed MRI reports, and other developed models that analyze other abstractions that go into the overall diagnosis
+- Additionally to this, The GlioAI Premium Mobile Subscription will include data visualization that allows them to view sets of different data trends of their own patients to be able to gauge clarity of their patients (operating like a second brain CRM for doctors) and different analytics in an easy-to-read format through graphs, charts, and other illustrations created through the MRI reports additionally to the feedback that is sent by other verified doctors on the web platform.
+
 
 </p>
 </details>
 
-
 <details><summary>State your projected earnings for the upcoming quarters given that the app is deployed and the company becomes established. How much can you make a year?</summary>
 <p>
   
-efnefnjaefnelafoea
+- We will be able to set a $30 monthly subscription. For our web browser-based application, there will be various subscription options, including Basic, Pro, and Enterprise. Enterprise will target hospitals that will choose to purchase a monthly renewed license to the app in order to reduce expenses that doctors have to pay out-of-pocket if they want to have access to the entire set of features in GlioAI Mobile and GlioAI Web.
+- The enterprise-based monthly subscription will be $500 (because it is targeted towards hospitals, and the ROI pays for the subscription itself over time). Given that we can be explicit on how the hospitals will be able to increase their profit margins and revenue in their quarterly earnings reports, then we can use cold-email + other marketing methods to acquire these customers.  If we are able to acquire over 900-1000 hospitals in the US (there are 6,146 total according to the American Hospital Association), then we can make over $5.7 million in 12 months ($500 x 950 hospital users x 12 months) given that we are on pace with the development of the web platform, mobile application, system deployment, cloud-hosting, and other feature-related targets, then we can effectively scale our company to play as a dominant player in the telemedicine platform + digital radiology market, effectively leveraging us to compete with fewer competitors, allowing us to focus on the robustness of our product.
+
 
 </p>
 </details>
@@ -677,7 +715,9 @@ efnefnjaefnelafoea
 <details><summary>How does this become a billion-dollar company?</summary>
 <p>
   
-jekgnenelkgfnleka
+- If we can effectively scale our platform and applications and dominate the market of decentralized and distributed diagnostic systems, then we can scale our development team in order to build other applications within digital radiology that can be integrated along with live feedback from verified doctors (distributing the process of doctor feedback through the web instead of isolating the task to 1 doctor only --> limited feedback). 
+- If we capture the market share involving the digital pathology tools that are being built due to our ability to scale infrastructure, then we can scale operations and offer various applications for individual organs of the human body (brain tumors --> brain, lung cancers --> lungs, etc.), and deliver more products simultaneously for hospitals in the US, and then throughout the world, allowing us to make around (1100 US hospitals + 9000/16000 international hospitals = 10100 hospitals x $500 subscription x 4 different product licenses x 12 months = $242.4 million per year --> 4 and a half years --> $1 billion company)
+
 
 </p>
 </details>
@@ -686,7 +726,7 @@ jekgnenelkgfnleka
 <details><summary>If your startup succeeds, what additional areas might you be able to expand into within this healthcare space?</summary>
 <p>
   
-jekgnenelkgfnleka
+We currently will focus on radiology and maximize the image-related diagnostic processes with other modalities other than MRI, and will branch out to other cancers in order to offer more products and develop generative models with other forms of image data in the future.
 
 </p>
 </details>
@@ -697,7 +737,9 @@ jekgnenelkgfnleka
 <details><summary>What have you learned so far from working on this idea?</summary>
 <p>
   
-jekgnenelkgfnleka
+* There is so much uncapped potential from merging platform infrastructure for telemedicine given the recent laws passed to allow doctors to operate in the 50 states. 
+* Now is the best time for doctors to be able to speed up and refine the feedback and diagnostic accuracy, handling any abstraction from the feedback of verified doctors and the diagnosis from the systems on the platform. 
+* There will be so much intelligence aggregated and ranked, and there is a lot of potential for building this telemedicine network that can transform itself as a cybernetic collective over a digital network, where machines can automatically detect cancers and doctors can offer more feedback from input images that other doctors can post.
 
 </p>
 </details>
@@ -706,46 +748,22 @@ jekgnenelkgfnleka
 <details><summary>Why isn’t someone already doing this?</summary>
 <p>
   
-(best time to exploit opportunity to build telemedicine platform and products in machine learning/AI)
+* Currently viz.ai is working on building software solutions for detecting strokes using medical images, there needs to be more stability and production-level quality products that need to be deployed and it takes time for it to be implemented
+* Currently, it is the best time to exploit the opportunity to build a telemedicine-based network platform and implementing machine learning systems within the platform, in order to combine aggregated highj-signal human feedback along with the diagnostics delivered through the automated systems operating within the network infrastructure.
 
 </p>
 </details>
-
-
-<details><summary>What are the key things about your field that outsiders don’t understand?</summary>
-<p>
-  
-jekgnenelkgfnleka
-
-</p>
-</details>
-
 
 <details><summary>What will keep you up at night?</summary>
 <p>
   
-(making sure that servers are running and that the platform is maintained and functioning so that doctors can have continual access to feedback from other verified doctors along with access to digital pathology tools)
+- servers must run! (no outages)
+- platform maintanence
+- continued functionality of all features
 
 </p>
 </details>
 
-
-<details><summary>What obstacles will you face and how will you overcome them?</summary>
-<p>
-  
-jekgnenelkgfnleka
-
-</p>
-</details>
-
-
-<details><summary>What is your main takeaway and take on the current state of the healthcare system and how patients and care providers alike can distribute care at a far more efficient cost? </summary>
-<p>
-  
-(referring to entire pipeline and processes within the space and industries alike)
-
-</p>
-</details>
 
 
 # Dependencies 
