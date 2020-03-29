@@ -656,7 +656,7 @@ We currently will focus on radiology and maximize the image-related diagnostic p
 * Bootstrap
 * HTML5
 
-# Links for Other Viewing Formats
+# Links 
 
 * [Video](https://www.youtube.com/watch?v=ttS-RH3o0mM)
 * [Project Site](https://ferasbg.github.io/glioAI/)
