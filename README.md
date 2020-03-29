@@ -364,9 +364,13 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>What are you bringing to the table that is new and different than the current market?</summary>
 <p>
+  
 * Very important question to consider! The optimized neural network that powers the GlioAI application is able to perform at a far more accurate level than other current neural networks including AlexNet and GoogleNet. 
-* GlioAI operates on a primary backend infrastructure from VGG-Net, **is reported to perform at 97-98% accuracy**, and has been trained specifically with thousands of head MRI scans (labeled data) with pretrained layers
+  
+* GlioAI operates on a primary backend infrastructure from VGG-Net, **is reported to perform at 97-98% accuracy**, and has been trained specifically with thousands of head MRI scans (labeled data) with pretrained layers.
+
 * GlioAI is  **far more efficient than other current technologies due the improved methods of data augmentation** (the acquisition and scale of the training data) and **the consumer-friendly app-based usability of the neural network** and distribution potential by non-power users.
+
 * GlioAI has a promising future in terms of becoming production-ready using GAN to generate MRI images to further dominate the position of the models that are being used. Additionally, there will be other infrastructure developments to make GlioAI ready for doctors around the world. 
 
 </p>
@@ -374,6 +378,7 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>What needs will be met for your userbase (doctors) with your product?</summary>
 <p>
+  
 - The main priority is to **fill in the need of the doctor's workflow efficiency**, and taking a piece of the diagnostic process and speeding it up so that the doctor can have the freedom to allocate the recovered time to invest in their patient
 - Our goal is for GlioAI to **help drastically improve the overall patient-doctor experience in terms of time, energy, and financial costs on both ends of the care delivery process** and dispersing positive secondary effects from the efficiency of the diagnosis during the treatment process.
 - In order to make sure this happens, we **integrate our system into the daily workflow of the cancer specialist/radiologist/oncologist through a web app that can be downloaded by doctors around the world** who need to gain insight into the prognosis of their patient through MRI scans efficiently in order to move faster through the appointment for more logistical tasks that don't involve the pure interpersonal communication that is often cut down or out due to the variable of high-volume number of patients in hospitals or local clinical offices.
@@ -386,6 +391,7 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>How does your system improve current methods being deployed for image-based cancer detection?</summary>
 <p>
+  
 - Our backend **model performs at over 97% accuracy, performing better than AlexNet and GoogleNet for brain tumor classification**, which again are just neural networks that have not been productionized for web users. 
 - Additionally, GlioAI is a **far more improved and easy-to-use application** for the use of doctors in the healthcare space, so we saw our advantage to build a better solution both on the backend and the front-end involving the user experience.
 - Our system was designed with the **state-of-the-art data augmentation methods for the specific context of our problem** (medical imaging, tumor detection).
@@ -402,6 +408,7 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>What are the main costs involved in terms of resources (money, time, compute) for the user?</summary>
 <p>
+  
 * There are no additional costs! Although, the user needs to have working internet, a CMD to install our app (which is pre-installed on your computer), and a web browser on the computer to run the app on a local server (which also comes pre-installed, so easy-install and efficient user onboarding along with application usability). We will soon launch on the cloud. 
 * The ROI itself pays off the user's bandwidth costs given that over time there will be less fatalities and projected sales from patients that transfer their healthcare to the options given that provide more assurance, transparency, efficiency, and most importantly, patient quality.
 
@@ -410,6 +417,7 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>What specific part of the radiology pipeline are you improving, what abstraction is left in the diagnostic process?</summary>
 <p>
+  
 * We are specifically targetting patient diagnosis and automated image scanning and analysis during testing for brain tumors. 
 * Additionally put, we are targetting the earlier part of the entire brain cancer treatment workflow to speed up the time it takes to detect the development of the tumor itself, which is extremely important in order to determine the treatment approach.
 * To give some context of what processes go into treating a cancer patient, the current workflow additionally involves data acquisition, diagnostics, treatment planning, and treatment execution to deliver the cure/solution to the patient to alleviate and reduce the level of development of the brain tumor. 
@@ -420,6 +428,7 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>Why is the time of now the best time to deploy this technology for the world?</summary>
 <p>
+  
 * AI systems have shown to be able to detect cancers from image-related input data and have demonstrated a promise in accuracy and consistent results, and due to the current state of healthcare, are more seen as a necessary painkiller rather than simply a novel upgrade than previous workflows. In order to advance our position within healthcare for cancers and diseases that can be diagnosed via images, now is the right time to productionize these systems for doctors around the world that are in dire need of more time with their patients along with alleviating their stress to allow them to perform far better in a consistent manner.
 * In the 2020s, we are projecting to see more development and innovation in the biotech sectors, as regulatory bottlenecks and other limitations will be redesigned in order to incentivize individuals to advance the current technology that is used in healthcare. 
 * Because the incentives are lined up for us to move in to this industry coupled with the well-defined nature of the problem that we are solving, we see a bright future for the development and deployment of our technology for doctors and patients alike.
@@ -433,6 +442,7 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>In Lehmann's terms, explain to me the complete workflow behind the development of your product.</summary>
 <p>
+  
 * We modified a convolutional neural network from DeepMind so that it is optimized specifically for the context of our image recognition problem, which was to detect brain tumors. 
 * We did this by training the last layers with a specific dataset that was augmented to thousands of image data, and then tuned the model to avoid overfitting on the image data during training using a dropout layer, which increases the validation accuracy which then improves how the model is able to generalize each image to result to a diagnosis!
 * Next, we then implemented our modified neural network into the backend infrastructure of our web application, so that we can build out the front-end user interface for the user which would be the doctor.
@@ -447,6 +457,7 @@ That is great question! Our product targets trained radiologists with heavy pati
 
 <details><summary>How is your method improving the current state of all machine intelligence systems?</summary>
 <p>
+  
 * **Our method is able to simultaneously improve the accuracy of our image recognition algorithm with an an easy-to-use application that can work on any web browser** alleviating painpoints of radiologists without being difficult-to-use keeping in mind of the importance of the doctor's time within their treatment workflow, and hospitals alike.
 * We want doctors to focus on their patients rather than dealing with clunky software, having control over their time and the use of the technology they apply to help them diagnose patients and additionally decreasing the lag of time involved in treatment planning and executing a workable treatment as efficiently as possible.
 * Our system is focused to be user-centric and built for the doctor, while improving the nature of our system over time and simplfying the distribution of our technology simultaneously (via the web).
@@ -491,7 +502,8 @@ That is great question! Our product targets trained radiologists with heavy pati
 ## Market Size 
 <details><summary>How many people are in your target market?</summary>
 <p>
-* This is really important. There are thousands of hospitals (approx 16,500 according to the American Hospital Association) and dozens of independent clinician offices around the entire world.
+  
+This is really important. There are thousands of hospitals (approx 16,500 according to the American Hospital Association) and dozens of independent clinician offices around the entire world.
 
 </p>
 </details>
@@ -531,9 +543,9 @@ According to the National Health Services, it usually takes a week or two for th
 <details><summary>What should we see in 1 year, 2 years, 3 years, and beyond? Illustrate GlioAI's future and your vision for this product.</summary>
 <p>
   
-- analytics report + more features to allow users to connect with doctors on the app, so that they can recieve immediate feedback. No more week-long wait times to hear back from the doctor, those days are over. We will now develop the next part of GlioAI 2.0, involving an integrated application to allow patients to communicate individually with their doctors over an encrypted chatting network in the application in order to gain real-time insight on the development of their case including treatment planning and additional steps to take after image scans and testing have taken place. 
-- Long term, our main goal is to make brain cancer as critical as the flu, and this can be done through being able to have the right tools to remove error and any lag from patient diagnosis to treatment. For this to happen, we need to invest more in being able to have an increased developmental understanding on our treatment methods and being able to treat patients as efficiently and accurately as possible.
-- 
+*  analytics report + more features to allow users to connect with doctors on the app, so that they can recieve immediate feedback. No more week-long wait times to hear back from the doctor, those days are over. We will now develop the next part of GlioAI 2.0, involving an integrated application to allow patients to communicate individually with their doctors over an encrypted chatting network in the application in order to gain real-time insight on the development of their case including treatment planning and additional steps to take after image scans and testing have taken place. 
+*  Long term, our main goal is to make brain cancer as critical as the flu, and this can be done through being able to have the right tools to remove error and any lag from patient diagnosis to treatment. For this to happen, we need to invest more in being able to have an increased developmental understanding on our treatment methods and being able to treat patients as efficiently and accurately as possible.
+ 
 
 
 </p>
@@ -542,7 +554,7 @@ According to the National Health Services, it usually takes a week or two for th
 <details><summary>You have the minimum product built. Now what parts of this are you going to build next?</summary>
 <p>
   
-- we will be launching a mobile app where users can upload their MRI images and communicate closely with connected doctors and also be able to access the additional diagnostic notes aggregated from crowdsourced feedback from verified doctors around the world that will use the GlioAI platform.  
+* We will be launching a mobile app where users can upload their MRI images and communicate closely with connected doctors and also be able to access the additional diagnostic notes aggregated from crowdsourced feedback from verified doctors around the world that will use the GlioAI platform.  
 
 </p>
 </details>
@@ -553,9 +565,9 @@ According to the National Health Services, it usually takes a week or two for th
 <details><summary>What monetization model will you use (to protect your users?</summary>
 <p>
   
-- We will monetize through a subscription-based model, giving access for doctors to use our tumor recognition system for free.
-- Additionally to the basic diagnostic features of the app, the premium features that they want to use if they choose to take their workflow to the next level, will include detailed MRI reports, and other developed models that analyze other abstractions that go into the overall diagnosis
-- Additionally to this, The GlioAI Premium Mobile Subscription will include data visualization that allows them to view sets of different data trends of their own patients to be able to gauge clarity of their patients (operating like a second brain CRM for doctors) and different analytics in an easy-to-read format through graphs, charts, and other illustrations created through the MRI reports additionally to the feedback that is sent by other verified doctors on the web platform.
+*  We will monetize through a subscription-based model, giving access for doctors to use our tumor recognition system for free.
+*  Additionally to the basic diagnostic features of the app, the premium features that they want to use if they choose to take their workflow to the next level, will include detailed MRI reports, and other developed models that analyze other abstractions that go into the overall diagnosis
+*  Additionally to this, The GlioAI Premium Mobile Subscription will include data visualization that allows them to view sets of different data trends of their own patients to be able to gauge clarity of their patients (operating like a second brain CRM for doctors) and different analytics in an easy-to-read format through graphs, charts, and other illustrations created through the MRI reports additionally to the feedback that is sent by other verified doctors on the web platform.
 
 
 </p>
@@ -564,8 +576,10 @@ According to the National Health Services, it usually takes a week or two for th
 <details><summary>State your projected earnings for the upcoming quarters given that the app is deployed and the company becomes established. How much can you make a year?</summary>
 <p>
   
-- We will be able to set a $30 monthly subscription. For our web browser-based application, there will be various subscription options, including Basic, Pro, and Enterprise. Enterprise will target hospitals that will choose to purchase a monthly renewed license to the app in order to reduce expenses that doctors have to pay out-of-pocket if they want to have access to the entire set of features in GlioAI Mobile and GlioAI Web.
-- The enterprise-based monthly subscription will be $500 (because it is targeted towards hospitals, and the ROI pays for the subscription itself over time). Given that we can be explicit on how the hospitals will be able to increase their profit margins and revenue in their quarterly earnings reports, then we can use cold-email + other marketing methods to acquire these customers.  If we are able to acquire over 900-1000 hospitals in the US (there are 6,146 total according to the American Hospital Association), then we can make over $5.7 million in 12 months ($500 x 950 hospital users x 12 months) given that we are on pace with the development of the web platform, mobile application, system deployment, cloud-hosting, and other feature-related targets, then we can effectively scale our company to play as a dominant player in the telemedicine platform + digital radiology market, effectively leveraging us to compete with fewer competitors, allowing us to focus on the robustness of our product.
+*  We will be able to set a $30 monthly subscription. For our web browser-based application, there will be various subscription options, including Basic, Pro, and Enterprise. Enterprise will target hospitals that will choose to purchase a monthly renewed license to the app in order to reduce expenses that doctors have to pay out-of-pocket if they want to have access to the entire set of features in GlioAI Mobile and GlioAI Web.
+*  The enterprise-based monthly subscription will be $500 (because it is targeted towards hospitals, and the ROI pays for the subscription itself over time).
+* Given that we can be explicit on how the hospitals will be able to increase their profit margins and revenue in their quarterly earnings reports, then we can use cold-email + other marketing methods to acquire these customers.  
+* If we are able to acquire over 900-1000 hospitals in the US (there are 6,146 total according to the American Hospital Association), then we can make over $5.7 million in 12 months ($500 x 950 hospital users x 12 months) given that we are on pace with the development of the web platform, mobile application, system deployment, cloud-hosting, and other feature-related targets, then we can effectively scale our company to play as a dominant player in the telemedicine platform + digital radiology market, effectively leveraging us to compete with fewer competitors, allowing us to focus on the robustness of our product.
 
 
 </p>
@@ -575,8 +589,8 @@ According to the National Health Services, it usually takes a week or two for th
 <details><summary>How does this become a billion-dollar company?</summary>
 <p>
   
-- If we can effectively scale our platform and applications and dominate the market of decentralized and distributed diagnostic systems, then we can scale our development team in order to build other applications within digital radiology that can be integrated along with live feedback from verified doctors (distributing the process of doctor feedback through the web instead of isolating the task to 1 doctor only --> limited feedback). 
-- If we capture the market share involving the digital pathology tools that are being built due to our ability to scale infrastructure, then we can scale operations and offer various applications for individual organs of the human body (brain tumors --> brain, lung cancers --> lungs, etc.), and deliver more products simultaneously for hospitals in the US, and then throughout the world, allowing us to make around (1100 US hospitals + 9000/16000 international hospitals = 10100 hospitals x $500 subscription x 4 different product licenses x 12 months = $242.4 million per year --> 4 and a half years --> $1 billion company)
+*  If we can effectively scale our platform and applications and dominate the market of decentralized and distributed diagnostic systems, then we can scale our development team in order to build other applications within digital radiology that can be integrated along with live feedback from verified doctors (distributing the process of doctor feedback through the web instead of isolating the task to 1 doctor only --> limited feedback). 
+*  If we capture the market share involving the digital pathology tools that are being built due to our ability to scale infrastructure, then we can scale operations and offer various applications for individual organs of the human body (brain tumors --> brain, lung cancers --> lungs, etc.), and deliver more products simultaneously for hospitals in the US, and then throughout the world, allowing us to make around (1100 US hospitals + 9000/16000 international hospitals = 10100 hospitals x $500 subscription x 4 different product licenses x 12 months = $242.4 million per year --> 4 and a half years --> $1 billion company)
 
 
 </p>
@@ -617,9 +631,9 @@ We currently will focus on radiology and maximize the image-related diagnostic p
 <details><summary>What will keep you up at night?</summary>
 <p>
   
-- servers must run! (no outages)
-- platform maintanence
-- continued functionality of all features
+* servers must run! (no outages)
+* platform maintanence
+* continued functionality of all features
 
 </p>
 </details>
