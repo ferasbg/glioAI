@@ -263,6 +263,8 @@ $ python3 manage.py runserver
 ### App
 
 * Add sign-up page for users  
+* build mobile app with internal chatting system 
+* integrate all web features onto mobile app
 * build API so medical developers can integrate the prognosis tool into their applications
 * Add additional action buttons to allow patient to take action on prognosis (via booking appointments, getting directions to local clinical spaces)
 * Build out CRUD properties for user profile and action buttons in terms of adding notes feature on the web page, etc.
@@ -562,21 +564,10 @@ According to the National Health Services, it usually takes a week or two for th
 
 ## Growth Potential
 
-<details><summary>What monetization model will you use (to protect your users?</summary>
-<p>
-  
-*  We will monetize through a subscription-based model, giving access for doctors to use our tumor recognition system for free.
-*  Additionally to the basic diagnostic features of the app, the premium features that they want to use if they choose to take their workflow to the next level, will include detailed MRI reports, and other developed models that analyze other abstractions that go into the overall diagnosis
-*  Additionally to this, The GlioAI Premium Mobile Subscription will include data visualization that allows them to view sets of different data trends of their own patients to be able to gauge clarity of their patients (operating like a second brain CRM for doctors) and different analytics in an easy-to-read format through graphs, charts, and other illustrations created through the MRI reports additionally to the feedback that is sent by other verified doctors on the web platform.
-
-
-</p>
-</details>
-
 <details><summary>State your projected earnings for the upcoming quarters given that the app is deployed and the company becomes established. How much can you make a year?</summary>
 <p>
-  
-*  We will be able to set a $30 monthly subscription. For our web browser-based application, there will be various subscription options, including Basic, Pro, and Enterprise. Enterprise will target hospitals that will choose to purchase a monthly renewed license to the app in order to reduce expenses that doctors have to pay out-of-pocket if they want to have access to the entire set of features in GlioAI Mobile and GlioAI Web.
+ 
+*  We will be able to set a $30 monthly subscription for our mobile app. For our web browser-based application, there will be various subscription options, including Basic, Pro, and Enterprise. Enterprise will target hospitals that will choose to purchase a monthly renewed license to the app in order to reduce expenses that doctors have to pay out-of-pocket if they want to have access to the entire set of features in GlioAI Mobile and GlioAI Web. Users will be able to have their accounts connected.
 *  The enterprise-based monthly subscription will be $500 (because it is targeted towards hospitals, and the ROI pays for the subscription itself over time).
 * Given that we can be explicit on how the hospitals will be able to increase their profit margins and revenue in their quarterly earnings reports, then we can use cold-email + other marketing methods to acquire these customers.  
 * If we are able to acquire over 900-1000 hospitals in the US (there are 6,146 total according to the American Hospital Association), then we can make over $5.7 million in 12 months ($500 x 950 hospital users x 12 months) given that we are on pace with the development of the web platform, mobile application, system deployment, cloud-hosting, and other feature-related targets, then we can effectively scale our company to play as a dominant player in the telemedicine platform + digital radiology market, effectively leveraging us to compete with fewer competitors, allowing us to focus on the robustness of our product.
