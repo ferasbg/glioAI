@@ -72,13 +72,8 @@ The optimized convolutional neural network performed at greater than 90% accurac
 
 ## Conclusion
 
-* Given that we can precisely automate the process of detecting whether a brain tumor is present in a patient or not, while simultaneously accompanying it with an easy-to-use user interface (for the doctor + patient), hospitals and patients will be able to simplify their workflow for detecting anomalies much earlier and are able to capture it with precision without having to sacrifice accuracy.
-
-* To further add, healthcare providers will be able to adjacently use applications that are built on top of the rapidly evolving tech infrastructure for care delivery with less friction of accessibility and utilization (via web).
-
-* There are many improvements to make within the models themselves to account for more diverse and unpredictable anomalies, which can be effectively improved in a cost-effective manner via generating more patient data to train the model using GANs.
-
-* In this coming decade (2020-2029), the necessity for automation within care delivery will hopefully be deployed at scale, putting the core central focus of the patient back into the hands of the care providers, while lining up monetary incentives for all parties involved via an inverse system between efficiency and cost with automation.
+Given that we can precisely automate the process of detecting whether a brain tumor is present in a patient or not, while simultaneously accompanying it with an easy-to-use user interface (for the doctor + patient), hospitals and patients will be able to simplify their workflow for detecting anomalies much earlier and are able to capture it with precision without having to sacrifice accuracy.
+To further add, healthcare providers will be able to adjacently use applications that are built on top of the rapidly evolving tech infrastructure for care delivery with less friction of accessibility and utilization (via web).There are many improvements to make within the models themselves to account for more diverse and unpredictable anomalies, which can be effectively improved in a cost-effective manner via generating more patient data to train the model using GANs. In this coming decade (2020-2029), the necessity for automation within care delivery will hopefully be deployed at scale, putting the core central focus of the patient back into the hands of the care providers, while lining up monetary incentives for all parties involved via an inverse system between efficiency and cost with automation.
 
 ## Improvements
 
@@ -102,10 +97,7 @@ The optimized convolutional neural network performed at greater than 90% accurac
 * Incentivize (platform) users with app-specific crypto tokens to reward them in proportion to the amount of value they export to assist in helping other physicians with making a prognosis etc.
 ### Reflection
 * Given the current state that the model itself has been trained on a limited set(s) of patient MRI images with great accuracy, there is alot of area for improvement in terms of deploying extensive data augmentation (diversity of input image data for training), feature design, and overall application engineering and usability.
-## Future Work
-* I: Main Focus for the Future
-* II: Developmental Scope for 2020s
-* III: Reflection on Targets
+
 # Phase I: Build Crowdsourcing Protocols for Doctors in Need of Diagnostic Feedback
 
 * The future of GlioAI lies in the idea of turning into a decentralized and pseudononymous crowdsourcing platform for medical practicioners and verified physicians and healthcare providers within the context of deep-knowledge tasks to further prune outputs from machines & automated systems ranging in disease detection and other areas in health.
@@ -133,17 +125,6 @@ The optimized convolutional neural network performed at greater than 90% accurac
 * Build platform with verification features built in to allow doctors to recieve feedback on content they post to designated specialties (ex = imaging --> brain tumors, hemorrhage, etc.)
 
 * Build site that can sustain high-traffic load with all features built into platform
-
-## FAQ 
-
-Because the competition is taking place in a virtual manner, here are some questions we figured you may have been wondering about!
-
-**Why did you make this innovation, and how much would it cost?**
- 
-* That’s a great question. We built this system because we wanted to alleviate the pain points that physicians and radiologists face when making a treatment diagnosis given the extremely limited time they have to do so coupled with a high volume of patients. 
-* If we can accelerate the process of detecting the presence of tumors themselves, we can allow physicians to have the ability to make more time to truly be there for their patient.
-* It would cost virtually nothing for the user except internet bandwidth costs for web searches routed from ISP. Essentially anyone who is able to generate an image of a head MRI scan from their local hospital or clinical office can use this system, and it’s as simple as dragging and dropping the image to receive the diagnosis. 
-
 
 ## References
 
