@@ -75,57 +75,6 @@ The optimized convolutional neural network performed at greater than 90% accurac
 Given that we can precisely automate the process of detecting whether a brain tumor is present in a patient or not, while simultaneously accompanying it with an easy-to-use user interface (for the doctor + patient), hospitals and patients will be able to simplify their workflow for detecting anomalies much earlier and are able to capture it with precision without having to sacrifice accuracy.
 To further add, healthcare providers will be able to adjacently use applications that are built on top of the rapidly evolving tech infrastructure for care delivery with less friction of accessibility and utilization (via web).There are many improvements to make within the models themselves to account for more diverse and unpredictable anomalies, which can be effectively improved in a cost-effective manner via generating more patient data to train the model using GANs. In this coming decade (2020-2029), the necessity for automation within care delivery will hopefully be deployed at scale, putting the core central focus of the patient back into the hands of the care providers, while lining up monetary incentives for all parties involved via an inverse system between efficiency and cost with automation.
 
-## Improvements
-
-* I: App
-* II: Neural Network Architecture
-* III: Web Platform Engineering
-* IV: Reflection
-
-### App
-* Add sign-up page for users
-* build API so medical developers can integrate the prognosis tool into their applications
-* Add additional action buttons to allow patient to take action on prognosis (via booking appointments, getting directions to local clinical spaces)
-* Build out CRUD properties for user profile and action buttons in terms of adding notes feature on the web page, etc.
-### Neural Network Architecture
-* Build General Adversarial Network in order to compensate for scaling data augmentation methods to generate diverse sets of medical data to train the model
-* Build feature that outlines the tumor-infected nodules for the radiologist in order to prevent accidental treatment for healthy tissues in the brain
-* Build additional neural network that can allow for more types of patient output (via fetched patient data to construct the final diagnostic assessment in order to prevent narrow-based diagnosis, which is why GlioAI is a diagnostic tool that still needs to be utilized by trained radiologists that can piece together elements of further abstraction along with image-based diagnostic assessment in order to yield optimized results.
-
-### Web Platform Engineering
-* Build out crowdsourcing platform so users (certified doctors who are verified via medical school email) can assist with machine-based diagnostic decisions (crowdsourcing platform for brain cancer detection (initial MVP, scale and branch out to other specialties later)
-* Incentivize (platform) users with app-specific crypto tokens to reward them in proportion to the amount of value they export to assist in helping other physicians with making a prognosis etc.
-### Reflection
-* Given the current state that the model itself has been trained on a limited set(s) of patient MRI images with great accuracy, there is alot of area for improvement in terms of deploying extensive data augmentation (diversity of input image data for training), feature design, and overall application engineering and usability.
-
-# Phase I: Build Crowdsourcing Protocols for Doctors in Need of Diagnostic Feedback
-
-* The future of GlioAI lies in the idea of turning into a decentralized and pseudononymous crowdsourcing platform for medical practicioners and verified physicians and healthcare providers within the context of deep-knowledge tasks to further prune outputs from machines & automated systems ranging in disease detection and other areas in health.
-
-* Build a platform that can distribute high-value work (aggregation of feedback from board-certified doctors)
-
-* Game design mechanisms can be built out within the crowdsourcing platform in order to line up incentives for users to offer verified feedback that gets simultaneously ranked.
-
-* Propagandistic behaviors cannot occur because of the account verification process in order to create content or rank/upvote other posts (containment + authentication-based friction).
-
-* Enhancing treatment results via crowdsourcing platform specifically for verified doctors and healthcare providers (verified via school email + State ID)
-
-* Integrate gig-based cryptoeconomic mechanisms in order to incentivize (digital) teledoctors to be able to easily generate income via telemedicine tasks to ensure accuracy of diagnosis within timely conditions via providing direct emotional support + answer questions and make clarifications.
-
-* Crowdsourcing platform + machines = data-driven digital healthcare ecosystem
-
-# Phase II: Working With Tangible Atoms to Deploy Network for Shipping Treatments
-* Long term down the road, we can monetize in the future after productionization, and further deploy use of these systems by integrating drones to ship treatment medicine with tutorials on the web platform (goal is to make treatment methods open source and qualitatively aggregated together by verified doctors, also self-improving mechanism in terms of data and understanding)
-
-# Project OKRS
-* Refine backend system via building out external GAN via Tensorflow (generator + discriminator) in order to improve data that the neural network is trained on (by generating synthetic images that are able to account for far more anomalies involving Head MRI Scans, thus improving diversity of image data the model has been trained with
-
-* Allow users to book appointments with local doctors and overhead hospital in-patient management in local healthcare facilities with google maps API
-
-* Build platform with verification features built in to allow doctors to recieve feedback on content they post to designated specialties (ex = imaging --> brain tumors, hemorrhage, etc.)
-
-* Build site that can sustain high-traffic load with all features built into platform
-
 ## References
 
 * [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
