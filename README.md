@@ -575,7 +575,7 @@ According to the National Health Services, it usually takes a week or two for th
 <p>
   
 * The technology itself inherently functions at a high accuracy. The core painpoint is within the ethic constraints and complications to consider when assigning responsibility given the extreme edge case of the algorithm's error.
-* Albeit the initiat friction to adopt the technology, the push for using deep learning in order to assist physicians with detecting cancers and tumors within imaging will be gradually implemented over time.
+* Albeit the initial friction to adopt the technology, the push for using deep learning in order to assist physicians with detecting cancers and tumors within imaging will be gradually implemented over time.
 
 </p>
 </details>
