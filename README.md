@@ -220,7 +220,7 @@ When comparing the results of the different models that were trained, it is clea
 
 * There are many improvements to make within the models themselves to account for more diverse and unpredictable anomalies, which can be effectively improved in a cost-effective manner via generating more patient data to train the model using [GANs](https://developers.google.com/machine-learning/gan/gan_structure). 
 
-* After further model retuning and additional training optimization, GlioAI can specifically meet the pain points located within diagnosing brain tumors from MRI head scans, for brain cancer specialists and brain oncologists alike. Heading to a future where knowledge is aggregated and integrated with automated cancer detection systems in order to cut down diagnosis time over 1000-fold, from around 14 days of full reports to nearly 10-15 minutes, given the infrastructure for the crowdsourcing platform is built and incentive structures (via gig-based crypto token) and are aligned with verified physician users  
+* After further model retuning and additional training optimization, GlioAI can specifically meet the pain points located within diagnosing brain tumors from MRI head scans, for brain cancer specialists and brain oncologists alike. Heading to a future where knowledge is aggregated and integrated with automated cancer detection systems in order to cut down diagnosis time over 1000-fold, from around 14 days of full reports to nearly 10-15 minutes, alleviating the bottleneck of limited diagnosis time for doctors. 
 
 * In this coming decade (2020-2029), the necessity for automation within care delivery will hopefully be deployed at scale, putting the core central focus of the patient back into the hands of the care providers, while lining up monetary incentives for all parties involved via an inverse system between efficiency and cost with automation.  
 
@@ -294,7 +294,7 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 ## Bottleneck
 
 - ensuring patient data privacy with patient-centric monetization model (not driven by monetization from selling data)
-- backend security
+- backend security when encrypting patient data if we decide to platformize our product
 - KYC Verification (private keys to ensure image data is anonymous)
 - ranking cases based on user profile and professional line of work
 
@@ -314,12 +314,10 @@ The future of GlioAI will be a web platform that will allow doctors to recieve f
 
 * Crowdsourcing platform + machines = data-driven digital healthcare ecosystem
 
-## Phase II: Working With Tangible Atoms to Deploy Network for Shipping Treatments
 
-* We can further deploy use of these systems by integrating drones to ship treatment medicine with tutorials on the web platform (goal is to make treatment methods open source and qualitatively aggregated together by verified doctors, also self-improving mechanism in terms of data and understanding)
+## Targets and Improvements
 
-## Project OKRS
-
+- [ ] scrape additional MRI data in order to account for more anomalies
 - [ ] Refine backend system via building out external GAN via Tensorflow (generator + discriminator) in order to improve data that the neural network is trained on 
 - [ ] Allow users to book appointments with local doctors and overhead hospital in-patient management in local healthcare facilities with google maps API
 - [ ] Build platform with verification features built in to allow doctors to recieve feedback on content they post to designated specialties (ex = imaging --> brain tumors, hemorrhage, etc.)
@@ -501,7 +499,7 @@ That is great question! Our product targets trained radiologists with heavy pati
 </p>
 </details>
 
-## Market Size 
+## Market Size & Users
 <details><summary>How many people are in your target market?</summary>
 <p>
   
@@ -546,9 +544,6 @@ According to the National Health Services, it usually takes a week or two for th
 <p>
   
 *  analytics report + more features to allow users to connect with doctors on the app, so that they can recieve immediate feedback. No more week-long wait times to hear back from the doctor, those days are over. We will now develop the next part of GlioAI 2.0, involving an integrated application to allow patients to communicate individually with their doctors over an encrypted chatting network in the application in order to gain real-time insight on the development of their case including treatment planning and additional steps to take after image scans and testing have taken place. 
-*  Long term, our main goal is to make brain cancer as critical as the flu, and this can be done through being able to have the right tools to remove error and any lag from patient diagnosis to treatment. For this to happen, we need to invest more in being able to have an increased developmental understanding on our treatment methods and being able to treat patients as efficiently and accurately as possible.
- 
-
 
 </p>
 </details>
@@ -562,44 +557,10 @@ According to the National Health Services, it usually takes a week or two for th
 </details>
 
 
-## Growth Potential
-
-<details><summary>State your projected earnings for the upcoming quarters given that the app is deployed and the company becomes established. How much can you make a year?</summary>
-<p>
- 
-*  We will be able to set a $30 monthly subscription for our mobile app. For our web browser-based application, there will be various subscription options, including Basic, Pro, and Enterprise. Enterprise will target hospitals that will choose to purchase a monthly renewed license to the app in order to reduce expenses that doctors have to pay out-of-pocket if they want to have access to the entire set of features in GlioAI Mobile and GlioAI Web. Users will be able to have their accounts connected.
-*  The enterprise-based monthly subscription will be $500 (because it is targeted towards hospitals, and the ROI pays for the subscription itself over time).
-* Given that we can be explicit on how the hospitals will be able to increase their profit margins and revenue in their quarterly earnings reports, then we can use cold-email + other marketing methods to acquire these customers.  
-* If we are able to acquire over 900-1000 hospitals in the US (there are 6,146 total according to the American Hospital Association), then we can make over $5.7 million in 12 months ($500 x 950 hospital users x 12 months) given that we are on pace with the development of the web platform, mobile application, system deployment, cloud-hosting, and other feature-related targets, then we can effectively scale our company to play as a dominant player in the telemedicine platform + digital radiology market, effectively leveraging us to compete with fewer competitors, allowing us to focus on the robustness of our product.
-
-
-</p>
-</details>
-
-
-<details><summary>How does this become a billion-dollar company?</summary>
-<p>
-  
-*  If we can effectively scale our platform and applications and dominate the market of decentralized and distributed diagnostic systems, then we can scale our development team in order to build other applications within digital radiology that can be integrated along with live feedback from verified doctors (distributing the process of doctor feedback through the web instead of isolating the task to 1 doctor only --> limited feedback). 
-*  If we capture the market share involving the digital pathology tools that are being built due to our ability to scale infrastructure, then we can scale operations and offer various applications for individual organs of the human body (brain tumors --> brain, lung cancers --> lungs, etc.), and deliver more products simultaneously for hospitals in the US, and then throughout the world, allowing us to make around (1100 US hospitals + 9000/16000 international hospitals = 10100 hospitals x $500 subscription x 4 different product licenses x 12 months = $242.4 million per year --> 4 and a half years --> $1 billion company)
-
-
-</p>
-</details>
-
-<details><summary>If your startup succeeds, what additional areas might you be able to expand into within this healthcare space?</summary>
-<p>
-  
-We currently will focus on radiology and maximize the image-related diagnostic processes with other modalities other than MRI, and will branch out to other cancers in order to offer more products and develop generative models with other forms of image data in the future.
-
-</p>
-</details>
-
-
 
 ## Misc
 
-<details><summary>What have you learned so far from working on this idea?</summary>
+<details><summary>What have you learned so far from working on this idea in terms of how you can expand from just a simple web prototype to a platform?</summary>
 <p>
   
 * There is so much uncapped potential from merging platform infrastructure for telemedicine given the recent laws passed to allow doctors to operate in the 50 states. 
@@ -613,21 +574,12 @@ We currently will focus on radiology and maximize the image-related diagnostic p
 <details><summary>Why isn’t someone already doing this?</summary>
 <p>
   
-* Currently [viz.ai](https://www.viz.ai/) is working on building software solutions for detecting strokes using medical images, and when dealing with the development of diagnostic systems, there needs to be more stability and product robustness.
-* Currently, it is the best time to exploit the opportunity to build a telemedicine-based network platform and implementing machine learning systems within the platform, in order to combine aggregated high-signal human feedback along with the diagnostics delivered through the automated systems operating within the network infrastructure.
+* The technology itself inherently functions at a high accuracy. The core painpoint is within the ethic constraints and complications to consider when assigning responsibility given the extreme edge case of the algorithm's error.
+* Albeit the initiat friction to adopt the technology, the push for using deep learning in order to assist physicians with detecting cancers and tumors within imaging will be gradually implemented over time.
 
 </p>
 </details>
 
-<details><summary>What will keep you up at night?</summary>
-<p>
-  
-* servers must run! (no outages)
-* platform maintanence
-* continued functionality of all features
-
-</p>
-</details>
 
 # Dependencies 
 
@@ -650,7 +602,7 @@ We currently will focus on radiology and maximize the image-related diagnostic p
 # Links 
 
 * [Video](https://www.youtube.com/watch?v=ttS-RH3o0mM)
-* [Project Site](https://ferasbg.github.io/glioAI/)
+* [Project Website](https://ferasbg.github.io/glioAI/)
 * [Visual Write-Up](https://medium.com/@cryptomartian/glioai-automatic-brain-tumor-detection-system-for-diffusion-weighted-mri-1c808281245f?source=your_stories_page---------------------------)
 
 ## References
@@ -685,8 +637,6 @@ Society of North America](https://www.ncbi.nlm.nih.gov/pubmed/30303801)
 * [Advances in Biology and Treatment of Glioblastoma](https://www.amazon.com/Advances-Biology-Treatment-Glioblastoma-Research-ebook/dp/B073LLJJ6B/ref=sr_1_1?keywords=Advances+in+Biology+and+Treatment+of+Glioblastoma&qid=1577385631&s=books&sr=1-1)
 
 * [Glioblastoma_ Molecular Mechanisms of Pathogenesis and Current Therapeutic Strategies](https://www.amazon.com/Glioblastoma-Mechanisms-Pathogenesis-Therapeutic-Strategies-ebook/dp/B008BB7URG/ref=sr_1_1?keywords=Glioblastoma_+Molecular+Mechanisms+of+Pathogenesis+and+Current+Therapeutic+Strategies&qid=1577385586&s=books&sr=1-1)
-
-* [CrowdBC: A Blockchain-based Decentralized Framework for Crowdsourcing](https://eprint.iacr.org/2017/444.pdf) 
 
 * [Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
 
