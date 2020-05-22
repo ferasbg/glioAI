@@ -2,9 +2,7 @@
 # GlioAI: Automatic Brain Tumor Detection System for Diffusion-Weighted MRI
 
 Feras Baig  
-Vaibhav Shahi  
-* fbaig23@students.d125.org
-* vshahi23@students.d125.org  
+* fbaig23@students.d125.org  
  
 
   
